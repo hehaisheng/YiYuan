@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@id/toolbar"
+            layout="@layout/include_top_adjust_gray" />
+
+        <TextView
+            android:id="@id/tv_helpphone"
+            style="@style/TextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_column_small_margin"
+            android:background="@color/help_center_color"
+            android:drawableLeft="@drawable/ic_help_phone"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="@dimen/common_column_small_margin"
+            android:paddingLeft="@dimen/page_boarder_margin"
+            android:paddingTop="@dimen/common_column_small_margin"
+            android:text="客服热线：" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/common_column_small_margin"
+            android:background="@color/help_center_color"
+            android:paddingBottom="@dimen/common_column_small_margin"
+            android:paddingLeft="@dimen/page_boarder_margin"
+            android:paddingTop="@dimen/common_column_small_margin">
+
+            <TextView
+                android:id="@id/tv_helpguide"
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_help_tech"
+                android:gravity="left|center_vertical"
+                android:text="新手指南: " />
+
+            <TextView
+                android:id="@id/tv_helpguide_link"
+                style="@style/Link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/caldetail_tv_endtime"
+                android:text="@string/helpcenter_tech_link"
+                android:onClick="onClick"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/tv_helpregistnum"
+            style="@style/TextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_column_small_margin"
+            android:background="@color/help_center_color"
+            android:drawableLeft="@drawable/ic_help_reg"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="@dimen/common_column_small_margin"
+            android:paddingLeft="@dimen/page_boarder_margin"
+            android:paddingTop="@dimen/common_column_small_margin"
+            android:text="注册用户："
+            android:visibility="gone"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_column_small_margin"
+            android:background="@color/help_center_color"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/common_column_small_margin"
+            android:paddingLeft="@dimen/page_boarder_margin"
+            android:paddingTop="@dimen/common_column_small_margin">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_help_cr"
+                android:gravity="left"
+                android:text="@string/helpcenter_cr" />
+
+            <TextView
+                android:id="@id/tv_helpcr"
+                style="@style/TextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_column_small_margin"
+            android:background="@color/help_center_color"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/common_column_small_margin"
+            android:paddingLeft="@dimen/page_boarder_margin"
+            android:paddingTop="@dimen/common_column_small_margin">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/join_in_hotline"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_column_small_margin"
+            android:background="@color/help_center_color"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/common_column_small_margin"
+            android:paddingLeft="@dimen/page_boarder_margin"
+            android:paddingTop="@dimen/common_column_small_margin">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/join_in_hotline_without"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/activity_helpcenter_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="技术支持："/>
+
+        <TextView
+            android:clickable="true"
+            android:id="@+id/shawnway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="尚为软件"
+            android:textColor="@color/red"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/activity_helpcenter_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18126770707"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>

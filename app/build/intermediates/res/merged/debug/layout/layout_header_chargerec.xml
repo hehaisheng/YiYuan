@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- amount label-->
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/page_boarder_margin"
+        android:paddingTop="@dimen/page_boarder_margin">
+
+        <TextView
+            style="@style/TextView.big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chrec_label" />
+
+        <TextView
+            android:id="@id/tv_amount"
+            style="@style/TextView.big.yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥" />
+    </LinearLayout>-->
+    <!--divider-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_color" />
+    <!--table header-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/page_boarder_margin"
+            android:paddingTop="@dimen/page_boarder_margin">
+
+            <TextView
+                android:id="@id/time"
+                style="@style/TextView.small"
+                android:textColor="@color/good_detail_swipe_text_color"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/chargerec_col_one_weight"
+                android:gravity="left"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:text="@string/chrec_col_1" />
+
+
+            <TextView
+                android:id="@id/code"
+                style="@style/TextView.small"
+                android:textColor="@color/good_detail_swipe_text_color"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/page_boarder_margin"
+                android:layout_weight="@integer/chargerec_col_two_weight"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:text="@string/chrec_col_2" />
+
+            <TextView
+                android:id="@id/custom"
+                style="@style/TextView.small"
+                android:textColor="@color/good_detail_swipe_text_color"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/page_boarder_margin"
+                android:layout_weight="@integer/chargerec_col_three_weight"
+                android:gravity="right"
+                android:maxLines="2"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:text="@string/chrec_col_3" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_color" />
+    </LinearLayout>
+</LinearLayout>

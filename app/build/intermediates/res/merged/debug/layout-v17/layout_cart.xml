@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_background_with_line_bottom"
+    android:paddingBottom="5.0dip"
+    android:paddingEnd="@dimen/cart_adjust_common_margin"
+    android:paddingRight="@dimen/cart_adjust_common_margin">
+
+    <ImageButton
+        android:id="@id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginStart="10.0dip"
+        android:contentDescription="@string/desc_checkbox"
+        android:src="@drawable/ic_radius_checkbox"
+        android:visibility="gone" />
+
+    <com.shawnway.nav.app.yylg.view.CirclerImageView
+        android:id="@id/image"
+        android:layout_width="63.0dip"
+        android:layout_height="63.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/cart_adjust_common_margin"
+        android:layout_marginRight="@dimen/cart_adjust_common_margin"
+        android:layout_marginTop="10.0dip"
+        android:layout_toEndOf="@id/checkbox"
+        android:layout_toRightOf="@id/checkbox"
+        android:background="@drawable/imagebroader"
+        android:contentDescription="@string/desc_goods_pic"
+        android:padding="3dp" />
+
+    <TextView
+        android:id="@id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:layout_toEndOf="@id/image"
+        android:layout_toRightOf="@id/image"
+        android:lines="2" />
+
+    <TextView
+        android:id="@id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_toEndOf="@id/image"
+        android:layout_toRightOf="@id/image"
+        android:textColor="@color/dark_gray" />
+
+    <LinearLayout
+        android:id="@id/control"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress"
+        android:layout_marginBottom="10.0dip"
+        android:layout_toEndOf="@id/image"
+        android:layout_toRightOf="@id/image"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@id/numberLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cart_number_lable"
+            android:textColor="@color/dark_gray"
+            android:textSize="10sp" />
+
+        <com.shawnway.nav.app.yylg.view.NumberPicker
+            android:id="@id/numberPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cart_number_picker_distance"
+            android:layout_marginStart="@dimen/cart_adjust_common_margin" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/price"
+                style="@style/TextView.highlight"
+                android:text="1000元"
+                android:textSize="13sp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/btn_delete"
+                />
+
+            <ImageButton
+                android:id="@id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/tashcan" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:id="@id/regularBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/control"
+        android:layout_marginBottom="10.0dip"
+        android:layout_toEndOf="@id/image"
+        android:layout_toRightOf="@id/image"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@id/regularBuyLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cart_period_lable"
+            android:textColor="@color/dark_gray" />
+
+        <com.shawnway.nav.app.yylg.view.NumberPicker
+            android:id="@id/regularBuyInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cart_number_picker_distance"
+            android:layout_marginStart="@dimen/cart_adjust_common_margin" />
+    </LinearLayout>-->
+
+    <!-- <TextView
+         android:id="@id/hint"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/regularBuy"
+         android:layout_marginBottom="10.0dip"
+         android:background="#fffcf6f1"
+         android:paddingBottom="2.0dip"
+         android:paddingLeft="15.0dip"
+         android:paddingRight="15.0dip"
+         android:paddingTop="2.0dip"
+         android:textColor="#ffb59171"
+         android:visibility="gone" />-->
+
+    <include layout="@layout/include_tab_icon_layout" />
+
+</RelativeLayout>

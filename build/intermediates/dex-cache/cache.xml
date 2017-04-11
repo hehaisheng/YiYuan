@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cfe991be1c8c490e8ce698c95c8a1bfa03b75294">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ae59822081a0c738f12db3685a579b55dd99d909\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.2.1_a80711eebc2d1def202e9a823fff06f0ca830f8f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_5d257453479f6503d340320cb9339c32a53fbf69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.5.2\ecf534dba3a8446ce84cbb797d314763be212a68\glide-3.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.5.2_b55f3af36f0c739c4f16b3414983f2562b0328aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_3aedac80a17ca17d1c59f2873aea3b3c48dd6f21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\libs\universal-image-loader.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3526df34297bab9b9cc33d93d6e68f60fc2f94ea">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader_f1e0b5008fa85c1219720af9c1aa16e287db75e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.github.CymChad\BaseRecyclerViewAdapterHelper\2.1.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6f610878783b71316aacfb0ae31b8aab71b7fccc">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.CymChad-BaseRecyclerViewAdapterHelper-2.1.3_f766be1a461cb0ed07b2693eccb65d7e2aa5a631\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\org.simpleframework\simple-xml\2.7.1\dd91fb744c2ff921407475cb29a1e3fee397d411\simple-xml-2.7.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dd91fb744c2ff921407475cb29a1e3fee397d411">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\simple-xml-2.7.1_32714c1dcb71c799f550606762d93c7837506049\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.1.0_ff13855412db56371b44f2caab4cf01884bbe879\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_cf589491f9594c2e30a2b7c0b30b72811210bf54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f1e01a14f20e1a7a45cc291a177b4844dbe2de25">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.tencent.bugly-crashreport_upgrade-1.2.4.0_84ed11a8e611ea29e9454b4f6725d602a7b724fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_a63e45247233ef04d03fd9954e4a3bf1d8a8f3d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\libs\httpcore-4.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2d503272bf0a8b5f92d64db78b4ba9abbaccc6fd">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.2.1_aac7e00fff862f3cfd24bdee7b2c925f1774399b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_b441fc392883dbc949e596732da76ec4c7768b9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.github.iwgang\countdownview\1.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4cc7747882b4a1126b8d978ed531c223c04265c3">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.iwgang-countdownview-1.2_ec8137b24d183fab1a1d46b05f5ce7c7879c47db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\palette-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a978650837318cf056bf3383ff02fe7a3b891f20">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-23.1.1_790d77c9e3002fcab6233112be8cfaef5b822848\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="41a4edf3c43fdbce6eba27da50b17ff9933987f1">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.pnikosis-materialish-progress-1.7_90a1786bd0e13f0ce9677c84cf3ab4550f39e9d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.3.0\ba14d8b7789efde5ee150eacb297b7237abca39\logging-interceptor-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0ba14d8b7789efde5ee150eacb297b7237abca39">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.3.0_bdf8490502aab56a9765e4558551c56b54c9c72b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.lovedise\permissiongen\0.0.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="634ccf52c8b58a9eafd4a574b38d165e8648a574">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.lovedise-permissiongen-0.0.6_56d39c25765927df2b0b86888da1860dd23da272\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.0\support-annotations-24.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.0_864df4e5c18d1d47544f6f600a2199d4c9ebef78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\libs\Volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\2\Volley_1a4a5f4622296e6cfa2f59b5e06310d428b5fa5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_d66abdc29e8597188268ad5626edaba4d6979fb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\libs\banksdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="efa8590e1c16c79d00d0d9aa136d52470ebf403c">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\2\banksdk_54305125b74a7574b5aaaa9f181632d9beb245c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\libs\libammsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\2\libammsdk_1a5969f81bc1af37074d28d18b35341f91f2849a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_75f030abb8fcbc856ac25025dbec679a66bd729a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_0eeffd353053fc45f0966120c73358c436fd86f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.1.1_01d4d9e2440bb953cc03c6c97ec83cc98716733c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-simplexml\2.0.1\aad1de86a3b0f6c41f8e68f521610e4203b7efae\converter-simplexml-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="aad1de86a3b0f6c41f8e68f521610e4203b7efae">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-simplexml-2.0.1_7f9342f7083f2bfb99e54d1f7019282f92853219\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="72d351ab8a80cdb1898f8ad0fb50c3436258b15d">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_061818081de325d9739ab7baded1b29d884b7588\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\libs\locSDK_6.23.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c477374453afd5ce824bc3b8ce68fe0e17b63b15">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.23_07883200d7f8362ed103bc0abba164247903ebbc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\libs\baidumapapi_v3_5_0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b63b092a660a70370a05e00be60fd2b4ed290fcb">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_v3_5_0_5072267e55c7e2bad7a2c3f13cefd2ca9084995f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.4.0_e6c0d893877b4b4cd774a6693e92304aff161072\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_eb04ea55ae83fbd57027a78fc54562c3f2d4d403\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.6\2586312cd2b8a511e4c6236736f5a039fc0f2273\rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.6_78364704dd310f09afa9bb45b5911393763b636e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.4.0_7d5a33efe95d5e64a63dd67ef1ea9547ffbb2719\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_d6e05ec4971d6915bf8a5b5e5330234df7a1a880\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_ab3443609c1b62f00e2deec075c26139679be2df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.baoyz.pullrefreshlayout\library\1.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d05c16d86108d3d34377946a79d79f8485a46bfa">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.baoyz.pullrefreshlayout-library-1.2.0_01d8041b1964bdd01db1411738148aca3ab98ff4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_82dfeba545c1ba1ecb00f58f55384eda6cc893e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.1.0_7af52198e819607e26fab21a69e2b253b358b314\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.zhy\percent-support-extends\1.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="29ff8e178d6ef33c8673f430651500068642f833">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.zhy-percent-support-extends-1.1.1_b9a4bdfbeb31b80979e6309dc4a880e2f456b7b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\libs\APPayAssistEx.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="170a7f142b0f0faa34101ccd05704628cf848eb5">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\2\APPayAssistEx_3ee738081729a2d07977a07de7eb17d2e7639c39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.GZLX--20160719D\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_81ebf7e64faf8bbd30d97a1d951940b2aa48f0b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\libs\httpmime-4.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c7349b04e5d76895fdfc0f38bdc0699e5f6fef5a">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.2.1_75f9eb9c4c2512018da6357251d8ff1ed4f18bd0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\libs\picasso-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.4.0_5de78cbec51f1f3d843f6756c7280dbb09c0a8c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.1.0_00dfd40c8bcfbb5cd36b72cc91c1e1f4849077ea\classes.dex" />
+    </item>
+
+</items>

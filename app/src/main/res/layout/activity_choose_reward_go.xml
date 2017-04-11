@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/include_top_adjust_gray" />
+
+    <include
+        layout="@layout/include_win_record_goods_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/common_column_big_margin"
+        android:layout_marginLeft="@dimen/page_boarder_margin"
+        android:layout_marginRight="@dimen/page_boarder_margin"
+        android:layout_marginTop="@dimen/page_top_margin" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/win_chooser_to_phone_recharge_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/common_column_medium_margin"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:layout_marginRight="@dimen/page_boarder_margin"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/bt_phone_recharnge"
+                style="@style/Button.main.radio"
+                android:layout_centerVertical="true"
+                android:minWidth="120dp"
+                android:text="@string/choose_btn_phone_recharge" />
+
+            <TextView
+                style="@style/TextView.gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/page_boarder_margin"
+                android:layout_toRightOf="@+id/bt_phone_recharnge"
+                android:text="@string/choose_tips_phone_recharge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            tools:visibility="visible"
+            android:id="@+id/win_chooser_to_withdraw_deposit_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/common_column_medium_margin"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:layout_marginRight="@dimen/page_boarder_margin"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/bt_to_withdraw_deposit"
+                style="@style/Button.main.login"
+                android:layout_centerVertical="true"
+                android:minWidth="120dp"
+                android:text="@string/choose_btn_withdraw_deposit" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/win_chooser_to_balance_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/common_column_medium_margin"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:layout_marginRight="@dimen/page_boarder_margin"
+            android:visibility="gone">
+
+            <Button
+                android:id="@id/bt_to_balance"
+                style="@style/Button.main.radio"
+                android:layout_centerVertical="true"
+                android:minWidth="120dp"
+                android:text="@string/choose_btn_to_balance" />
+
+            <TextView
+                style="@style/TextView.gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/page_boarder_margin"
+                android:layout_toRightOf="@id/bt_to_balance"
+                android:text="@string/choose_tips_to_balance" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/win_chooser_to_realshop_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/win_chooser_to_balance_wrapper"
+            android:layout_marginBottom="@dimen/common_column_medium_margin"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:layout_marginRight="@dimen/page_boarder_margin"
+            android:visibility="gone">
+
+            <Button
+                android:id="@id/bt_to_realshop"
+                style="@style/Button.main.radio"
+                android:layout_centerVertical="true"
+                android:minWidth="120dp"
+                android:text="@string/choose_btn_to_realshop" />
+
+            <TextView
+                style="@style/TextView.gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/page_boarder_margin"
+                android:layout_toRightOf="@id/bt_to_realshop"
+                android:text="@string/choose_tips_gorealshop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/win_chooser_to_friend_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/common_column_medium_margin"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:layout_marginRight="@dimen/page_boarder_margin"
+            android:visibility="gone">
+
+
+            <Button
+                android:id="@id/bt_to_friend"
+                style="@style/Button.main.login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dp"
+                android:text="@string/choose_btn_to_friend" />
+
+            <TextView
+                style="@style/TextView.gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/page_boarder_margin"
+                android:layout_toRightOf="@id/bt_to_friend"
+                android:text="@string/choose_tips_to_friend" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/win_chooser_to_ali_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/common_column_medium_margin"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:layout_marginRight="@dimen/page_boarder_margin"
+            android:visibility="gone">
+
+
+            <Button
+                android:id="@id/bt_to_ali"
+                style="@style/Button.main.login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dp"
+                android:text="@string/choose_btn_to_ali" />
+
+            <TextView
+                style="@style/TextView.gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/page_boarder_margin"
+                android:layout_toRightOf="@id/bt_to_ali"
+                android:text="@string/choose_tips_to_ali" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            tools:visibility="visible"
+            android:id="@id/win_chooser_to_getreal_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/common_column_medium_margin"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:layout_marginRight="@dimen/page_boarder_margin"
+            android:visibility="gone">
+
+
+            <Button
+                android:id="@id/bt_to_getreal"
+                style="@style/Button.main.login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dp"
+                android:text="@string/choose_btn_to_getreal" />
+
+            <TextView
+                style="@style/TextView.gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/page_boarder_margin"
+                android:layout_toRightOf="@id/bt_to_getreal"
+                android:text="@string/choose_tips_to_getreal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

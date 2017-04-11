@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shawnway.nav.app.yylg"
+    android:versionCode="40"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 打电话的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 短信的权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        name="com.shawnway.nav.app.yylg.app.MyApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/yy_appicon"
+        android:label="@string/yy_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" />
+            </intent-filter>
+        </service>
+        <service android:name="com.shawnway.nav.app.yylg.service.HeartService" />
+        <service android:name="com.shawnway.nav.app.yylg.service.AutoLoginService" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="6Q61GG7q6AnOL6qDLFzpU7X0" />
+
+        <activity
+            android:name="com.shawnway.nav.app.yylg.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/MainActivity" />
+        <activity
+            android:name="com.shawnway.nav.app.yylg.activity.WelcomPageActivity"
+            android:theme="@style/welcomeAnimation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.WebViewActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.ServiceProtocolActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.SelfPickActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.AllCyclesActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.OrderActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.HelpGuideActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.TenBlockActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.RealBlockActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.IntroCodeActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.DetailActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.UserActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.RegistActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.RegistCfmActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.LoginActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.CartActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.ShareDetialActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.GrantActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.GrantCfmActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.GrantRecordActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.GoodListVerticalActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.PayResultActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.AddressActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.MyCommissionActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.RetrievePwdActvitity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.MyPointActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.AddressEditActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.WinRecordActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.ChooseEarnActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.ChargeActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.AddShareActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.RetrievePwdCfmActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.HelpCenterActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.MissionActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.MyShareActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.CheckMyCodeActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.JoinListActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.CalDetailCountDownActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.RealLstAnnounceActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.BankCardChargeActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.ShareActivity" />
+        <activity
+            android:name="com.shawnway.nav.app.yylg.activity.CommentsActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.LstAnnounceActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.CalDetailActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.ShareListActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.PersonalDataActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.AccountDetailsActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.CashOutActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.CashOutFormActivity" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.PhysicalActivity_pri" />
+        <activity
+            android:name="com.shawnway.nav.app.yylg.activity.CustomInfoActivity"
+            android:theme="@style/BaseTheme" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.SelectCycActivity" />
+        <activity
+            android:name="com.shawnway.nav.app.yylg.customer.activity.ImageSelectorActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.shawnway.nav.app.yylg.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.shawnway.nav.app.yylg.customer.activity.ImageSelectorPreViewActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name="com.shawnway.nav.app.yylg.activity.CodeListActivity" />
+
+        <!-- 购买记录页面 -->
+        <activity android:name="com.shawnway.nav.app.yylg.mvp.user.user_buy_record.MyBuyRecordsActivity" />
+        <!-- 佣金说明页面 -->
+        <activity android:name="com.shawnway.nav.app.yylg.mvp.user.user_invite.explain.ExplainActivity" />
+        <!-- 中奖记录物流页面 -->
+        <activity android:name="com.shawnway.nav.app.yylg.mvp.user.user_winrecord.express.ExpressActivity" />
+        <!-- 充值卡充值填写充值信息页面 -->
+        <activity android:name="com.shawnway.nav.app.yylg.mvp.user.user_winrecord.choos_earn.phone_recharge.PhoneRechargeActivity" />
+        <!-- 淘宝卡提现填写信息页面 -->
+        <activity android:name="com.shawnway.nav.app.yylg.mvp.user.user_winrecord.choos_earn.withdraw_deposit.WithDrawDepositActivity" />
+
+        <receiver android:name="net.sourceforge.simcpux.wxapi.AppRegister" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- 配置tinker合成结果service -->
+        <service
+            android:name="com.tencent.bugly.beta.tinker.TinkerResultService"
+            android:exported="false" />
+        <service
+            android:name="com.tencent.tinker.lib.service.TinkerPatchService"
+            android:exported="false"
+            android:process=":patch" />
+        <service
+            android:name="com.tencent.tinker.lib.service.TinkerPatchService$InnerService"
+            android:exported="false"
+            android:process=":patch" />
+        <service
+            android:name="com.tencent.tinker.lib.service.DefaultTinkerResultService"
+            android:exported="false" />
+    </application>
+
+</manifest>

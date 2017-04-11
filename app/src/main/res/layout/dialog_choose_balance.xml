@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:clickable="true"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/dialog_shape">
+
+    <TextView
+        android:id="@+id/dialog_choose_balance_title"
+        style="@style/text_18_ffffff"
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:gravity="center"
+        android:textColor="#77000000"
+        android:text="@string/go_balance" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_18_ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:textColor="#77000000"
+            android:text="@string/dialog_transferred_balance" />
+
+        <TextView
+            android:id="@+id/dialog_choose_balance_money"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dp"
+            style="@style/text_18_ffffff"
+            android:text="0.00"
+            android:textColor="@color/appcolor"/>
+
+        <TextView
+            style="@style/text_18_ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:textColor="#77000000"
+            android:text="元" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60.0dip"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/choose_balance_positiveBtn"
+            style="@style/text_15_ffffff_sdw"
+            android:layout_width="114.0dip"
+            android:layout_height="40.0dip"
+            android:background="@drawable/btn_ok_selector"
+            android:gravity="center"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/choose_balance_negativeBtn"
+            style="@style/text_15_ffffff_sdw"
+            android:layout_width="114.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:background="@drawable/btn_cancel_selector"
+            android:gravity="center"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

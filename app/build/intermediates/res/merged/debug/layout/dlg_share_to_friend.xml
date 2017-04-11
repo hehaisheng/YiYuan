@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sweet_dialog_background"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TextView.gray"
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:layout_margin="@dimen/common_column_very_small_margin"
+                android:text="@string/dlg_share_friend" />
+
+            <ImageView
+                android:id="@id/btn_close"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/icon_close" />
+        </RelativeLayout>
+
+        <TableLayout
+            android:id="@id/share_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/page_boarder_margin"
+            android:collapseColumns="3"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <RelativeLayout
+                    android:id="@id/bt_share_wx"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/main_top_bg_white"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:id="@id/image"
+                        android:layout_width="@dimen/image_gridview_width"
+                        android:layout_height="@dimen/image_gridview_width"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20.0dip"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_share_wx" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/image"
+                        android:gravity="center"
+                        android:text="@string/share_friend_wx"
+                        android:textColor="#cc666666"
+                        android:textSize="14sp" />
+
+                
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@id/bt_share_wxc"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/main_top_bg_white"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:id="@id/image"
+                        android:layout_width="@dimen/image_gridview_width"
+                        android:layout_height="@dimen/image_gridview_width"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20.0dip"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_share_wxc" />
+
+                    <TextView
+                        android:layout_width="70.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/image"
+                        android:gravity="center"
+                        android:text="@string/share_friend_wxc"
+                        android:textColor="#cc666666"
+                        android:textSize="14sp" />
+
+            
+                </RelativeLayout>
+
+            </TableRow>
+        </TableLayout>
+</LinearLayout>

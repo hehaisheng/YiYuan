@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.shawnway.nav.app.yylg.view.PayRadioGroup
+        android:id="@id/genderGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.shawnway.nav.app.yylg.view.PayRadioPurified
+            android:id="@id/pay_point"
+            style="@style/CheckBox.Bank"
+            android:tag="POINT"
+            my:desc="@string/pay_point_desc"
+            my:prbTitle="@string/usePoint" />
+
+        <com.shawnway.nav.app.yylg.view.PayRadioPurified
+            android:id="@id/pay_balance"
+            style="@style/CheckBox.Bank"
+            android:tag="BALANCE"
+            my:desc="@string/pay_balance_desc"
+            my:prbTitle="@string/useBalance" />
+    </com.shawnway.nav.app.yylg.view.PayRadioGroup>
+
+    <RelativeLayout
+        android:id="@id/pay_otherway"
+        style="@style/OptionBar"
+        android:background="@color/white"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/useOther" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center|right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥0.0" />
+
+            <ImageView
+                android:id="@id/orderArr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="5.0dip"
+                android:src="@drawable/ic_arr_down_gray" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.shawnway.nav.app.yylg.view.PayRadioGroup
+        android:id="@id/genderGroup2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        my:checkedButton="@id/pay_wechat"
+        my:orientation="vertical">
+
+        <com.shawnway.nav.app.yylg.view.PayRadioPurified
+            android:id="@id/pay_wechat"
+            style="@style/CheckBox.Bank"
+            android:tag="WECHAT"
+            my:desc="微信支付更方便"
+            my:prbLogo="@drawable/icon_wx_logo"
+            my:prbTitle="微信支付" />
+
+         <!--<com.shawnway.nav.app.renyigou.view.PayRadioPurified
+             android:id="@+id/p2"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/bg_border_selector"
+             my:desc="支持银行卡支付，无需登录"
+             my:logo="@drawable/ic_alipay_wap"
+             my:radio="@drawable/radio"
+             my:title="支付宝网页支付" />
+         <com.shawnway.nav.app.yylg.view.PayRadioPurified
+            android:id="@id/pay_balance"
+            style="@style/CheckBox.Bank"
+            android:tag="BALANCE"
+            my:checked="true"
+            my:desc="@string/pay_balance_desc"
+            my:prbTitle="@string/useBalance" />-->
+
+         <com.shawnway.nav.app.yylg.view.PayRadioPurified
+             android:id="@+id/p3"
+             style="@style/CheckBox.Bank"
+             android:tag="BANKCARD"
+             my:desc="（支持手机网银支付）"
+             my:prbTitle="通联支付" />
+
+
+    </com.shawnway.nav.app.yylg.view.PayRadioGroup>
+</LinearLayout>

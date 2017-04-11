@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/goods_bg"
+    android:clickable="true">
+
+    <com.shawnway.nav.app.yylg.view.CirclerImageView
+        android:id="@+id/goods_img"
+        android:layout_width="60dp"
+        android:layout_height="61.2dp"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="15.0dip"
+        android:src="@drawable/img_blank" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_toRightOf="@id/goods_img">
+
+        <TextView
+            android:id="@id/goods_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="3.0dip"
+            android:maxLines="2"
+            android:text="(第186期)iPhone6 4.7英寸苹果新品7英寸苹果新品7英寸苹果新品7英寸苹果新品7英寸苹果新品7英寸苹果新品7英寸苹果新品，万众瞩目"
+            android:textColor="#ff666666"
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:id="@+id/goods_worth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/goods_name"
+            android:layout_toLeftOf="@id/goods_add"
+            android:layout_alignParentLeft="true"
+            android:text="@string/good_worth"
+            android:singleLine="true"
+            android:textColor="#ff999999"
+            android:textSize="12.0sp" />
+
+        <ProgressBar
+            android:id="@id/progressbar"
+            android:layout_width="@dimen/square_goods_progress_width"
+            android:layout_height="@dimen/rect_goods_progress_height"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/goods_add"
+            android:layout_below="@id/goods_worth"
+            android:layout_marginTop="1.0dip"
+            android:progressDrawable="@drawable/abc_progressbar_layer"
+            android:max="1000"
+            android:indeterminateOnly="false"
+            style="?android:attr/progressBarStyleHorizontal"
+            />
+
+        <RelativeLayout
+            android:id="@id/progress_data_wrapper"
+            android:layout_below="@id/progressbar"
+            android:layout_toLeftOf="@id/goods_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@id/tv_joined"
+                style="@style/TextView.tiny"
+                android:text="202"
+                android:textColor="@color/appcolor" />
+
+            <TextView
+                android:id="@id/tv_total"
+                style="@style/TextView.tiny"
+                android:layout_centerHorizontal="true"
+                android:text="2002"
+                android:textColor="@color/appcolor_gray" />
+
+            <TextView
+                android:id="@id/tv_left"
+                style="@style/TextView.tiny"
+                android:layout_alignParentRight="true"
+                android:text="2002"
+                android:textColor="@color/appcolor_left" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@id/progress_data_label_wrapper"
+            android:layout_below="@id/progress_data_wrapper"
+            android:layout_toLeftOf="@id/goods_add"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TextView.tiny"
+                android:text="@string/joined"
+                android:textColor="@color/appcolor_gray"  />
+
+            <TextView
+                style="@style/TextView.tiny"
+                android:layout_centerHorizontal="true"
+                android:text="@string/total"
+                android:textColor="@color/appcolor_gray" />
+
+            <TextView
+                style="@style/TextView.tiny"
+                android:layout_alignParentRight="true"
+                android:text="@string/left"
+                android:textColor="@color/appcolor_gray"  />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@id/goods_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7.0dip"
+            android:layout_marginLeft="5.0dp"
+            android:layout_below="@id/goods_name"
+            android:layout_centerVertical="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            >
+
+
+
+            <ImageButton
+                style="@null"
+                android:id="@+id/goods_add_cart"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:padding="0.0dip"
+                android:src="@drawable/ic_cart"
+                android:singleLine="true"
+                android:textSize="9.0dp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_alignParentBottom="true"
+        android:background="#ffdcdcdc" />
+
+    <include layout="@layout/include_tab_icon_layout" />
+</RelativeLayout>

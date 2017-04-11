@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="loading_frame_interval">40</integer>
+    <integer name="pref_animation_halftime">150</integer>
+    <integer name="pref_animation_time">300</integer>
+    <integer name="regist_countdown_time">120</integer>
+    <integer name="inputer_numpicker_default">1</integer>
+    <integer name="inputer_numpicker_ten_default">10</integer>
+    <integer name="caldet_col_one_weight">5</integer>
+    <integer name="caldet_col_two_weight">4</integer>
+    <integer name="caldet_col_three_weight">2</integer>
+
+    <integer name="cashoutrec_col_one_weight">45</integer>
+    <integer name="cashoutrec_col_two_weight">25</integer>
+    <integer name="cashoutrec_col_three_weight">30</integer>
+    <integer name="cashoutrec_col_four_weight">20</integer>
+
+    <integer name="chargerec_col_one_weight">5</integer>
+    <integer name="chargerec_col_two_weight">3</integer>
+    <integer name="chargerec_col_three_weight">3</integer>
+
+    <integer name="warec_col_one_weight">8 </integer>
+    <integer name="warec_col_three_weight">4 </integer>
+    <integer name="index_allgood">1</integer>
+    <integer name="welcome_delay">2000</integer>
+    <integer name="pay_retrieve_delay">3000</integer>
+
+    <integer-array name="images">
+        <item>@drawable/ic_address_edit</item>
+        <item>@drawable/ic_address_select</item>
+    </integer-array>
+</resources>

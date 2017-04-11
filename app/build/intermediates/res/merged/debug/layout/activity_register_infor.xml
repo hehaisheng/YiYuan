@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/include_top_gray" />
+
+    <ScrollView
+        android:id="@+id/regist_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/regist_scroller_relative"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dip">
+
+                <RelativeLayout
+                    android:id="@+id/regist_page_input_phone_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="13dip">
+
+                    <EditText
+                        android:id="@+id/regist_input_phone"
+                        style="@style/EditText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/ic_phone"
+                        android:hint="@string/regist_input_hint_phone"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:singleLine="true" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/common_line" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/regist_page_input_password_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/regist_page_input_phone_layout"
+                    android:paddingTop="11dp">
+
+                    <EditText
+                        android:id="@+id/regist_input_password"
+                        style="@style/EditText.password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/ic_pwd"
+                        android:hint="@string/regist_input_hint_code" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/common_line" />
+                </RelativeLayout>
+
+                <!--<RelativeLayout
+                    android:id="@+id/regist_page_input_confirmPwd_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/regist_page_input_password_layout"
+                    android:paddingTop="11dp">
+
+                    <EditText
+                        android:id="@+id/regist_input_confirmPwd"
+                        style="@style/EditText.password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/ic_pwd"
+                        android:hint="@string/registconfirm_input_hint_code" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/common_line" />
+                </RelativeLayout>-->
+
+                <RelativeLayout
+                    android:id="@+id/regist_page_input_invitation_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/regist_page_input_password_layout"
+                    android:paddingTop="11dp">
+
+                    <EditText
+                        android:id="@+id/regist_input_invitation"
+                        style="@style/EditText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/hint_introcode" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/common_line" />
+                </RelativeLayout>
+
+                <!-- <RelativeLayout
+                     android:id="@+id/regist_page_input_captcha_layout"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/regist_page_input_password_layout"
+                     android:layout_marginTop="11dp">
+
+
+                     <RelativeLayout
+                         android:id="@+id/captcha_inputer"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_centerVertical="true"
+                         android:layout_toLeftOf="@id/captcha_img"
+                         android:orientation="vertical">
+
+                         <EditText
+                             android:id="@+id/regist_input_captcha"
+                             style="@style/EditText"
+                             android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:background="@null"
+                             android:drawableLeft="@drawable/ic_captcha"
+                             android:hint="@string/regist_input_hint_captcha"
+                             android:inputType="text"
+                             android:maxLength="4"
+                             android:singleLine="true" />
+
+                         <View
+                             android:layout_width="fill_parent"
+                             android:layout_height="1.0px"
+                             android:layout_alignParentBottom="true"
+                             android:background="@color/common_line" />
+                     </RelativeLayout>
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/captcha_inputer"
+                         android:layout_marginTop="20dp"
+                         android:text="    区分大小写"
+                         android:textColor="@color/appcolor"
+                         android:textSize="11sp" />
+
+                     <com.shawnway.nav.app.renyigou.view.CirclerImageView
+                         android:id="@id/captcha_img"
+                         android:layout_width="150dp"
+                         android:layout_height="50dp"
+                         android:layout_alignParentRight="true"
+                         android:clickable="true"
+                         android:onClick="onClick"
+                         android:scaleType="fitXY"
+                         app:civShouldCache="false" />
+                 </RelativeLayout>
+ -->
+                <LinearLayout
+                    android:id="@+id/regist_agreement_wrapper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/regist_page_input_invitation_layout"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/regist_agreement"
+                        style="@style/CheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:textSize="@dimen/abc_text_size_very_small_material"
+                        android:text="@string/regist_checkbox_hint"
+                        />
+                    <TextView
+                        android:id="@id/tv_protocol"
+                        style="@style/TextView.small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/regist_checkbox_btn"
+                        android:clickable="true"
+                        android:onClick="onClick"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/regist_send"
+                    style="@style/Button.main.Border"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@id/regist_agreement_wrapper"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20.0dp"
+                    android:layout_marginTop="15.0dp"
+                    android:enabled="false"
+                    android:onClick="onClick"
+                    android:text="@string/regist_cfmsend_btn" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+    <!--<LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="由"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="尚为软件"
+            android:textColor="@color/red"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提供技术支持"/>
+
+    </LinearLayout>-->
+
+</RelativeLayout>

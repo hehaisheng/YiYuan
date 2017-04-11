@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@id/orderListContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:orientation="horizontal"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip">
+
+        <TextView
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="#ffe8e8e8" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_order"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/cutHint"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip"
+                    android:paddingTop="5.0dip"
+                    android:text="注：订单内超出剩余人次的商品已自动调整"
+                    android:textColor="#ffb59171"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@id/renewHint"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip"
+                    android:paddingTop="5.0dip"
+                    android:text="注：订单内被抢完的商品已自动参与最新一期"
+                    android:textColor="#ffb59171"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@id/hintLine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:layout_marginBottom="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:background="@drawable/dash_line"
+                    android:visibility="gone" />
+
+                <com.shawnway.nav.app.yylg.view.NoScrollListView
+                    android:id="@id/orderList"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/transparent" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="3.0dip"
+                android:background="@drawable/bg_order_bottom" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="#ffe8e8e8" />
+    </LinearLayout>

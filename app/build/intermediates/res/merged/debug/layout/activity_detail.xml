@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/animation_wrapper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/include_top_adjust_gray" />
+
+    <FrameLayout
+        android:id="@+id/layout_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/toolbar">
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40.0dip"
+            android:gravity="center_horizontal"
+            android:text="--暂时还没有参与记录--"
+            android:textColor="@color/gray"
+            android:textSize="20.0sp"
+            android:visibility="gone" />
+
+        <ScrollView
+            android:id="@+id/detail_joinList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="60.0dip"
+            android:background="#fff8f8f8"
+            android:divider="@null"
+            android:listSelector="@color/transparent"
+            android:scrollbars="vertical"
+            >
+
+            <include layout="@layout/layout_good_detail_header" />
+        </ScrollView>
+        <!--
+             <com.netease.mail.oneduobaohydrid.widget.CustomSwipeRefreshLayout
+            android:id="@+id/detailActivity_customSwipeRefreshLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.netease.mail.oneduobaohydrid.widget.CustomSwipeRefreshLayout>
+
+        -->
+
+        <RelativeLayout
+            android:id="@+id/layout_bottomBar"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/detail_bottombar_height"
+            android:layout_gravity="bottom"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#ffdcdcdc" />
+
+            <LinearLayout
+                android:id="@+id/layout_buyDisable"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_buyDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="如需参与，请访问 电脑完整版"
+                    android:textColor="#ff808080" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_buyNow"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+
+
+                <Button
+                    android:id="@id/bt_joinNow"
+                    style="@style/Button.main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:onClick="onClick"
+                    android:text="@string/detail_footer_buy_rn" />
+
+                <Button
+                    android:id="@id/bt_addGood2Cart"
+                    style="@style/Button.main.Border"
+                    android:layout_toRightOf="@id/bt_joinNow"
+                    android:layout_toLeftOf="@id/cart2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onClick"
+                    android:text="@string/detail_footer_add_cart"
+                    />
+
+                <com.shawnway.nav.app.yylg.view.TabButton
+                    android:id="@id/cart2"
+                    style="@style/main_tabbutton_yy"
+                    android:layout_width="@dimen/detail_bottombar_height"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:onClick="onClick"
+                    android:background="@null"
+                    app:clickimage="@drawable/tab_cart_clicked"
+                    app:image="@drawable/tab_cart"
+                    app:text="@string/yy_cart_tabtitle" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_goCurrent"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/detail_bottombar_height"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/tv_currentNow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/cart"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:background="@color/appcolor_tran"
+                    android:layout_marginLeft="@dimen/page_boarder_margin"
+                    android:layout_marginTop="@dimen/page_boarder_margin"
+                    android:layout_marginBottom="@dimen/page_boarder_margin"
+                    android:text="第x期正在火热进行中..."
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:textSize="16sp"
+                    android:textColor="@color/white" />
+                <com.shawnway.nav.app.yylg.view.TabButton
+                    android:id="@+id/cart"
+                    style="@style/main_tabbutton_yy"
+                    android:layout_width="@dimen/detail_bottombar_height"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:onClick="onClick"
+                    app:clickimage="@drawable/tab_cart_clicked"
+                    app:image="@drawable/tab_cart"
+                    app:text="@string/yy_cart_tabtitle" />
+                <!--  <Button
+                      android:id="@+id/bt_goCurrentPeriod"
+                      android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:paddingLeft="20dip"
+                      android:paddingRight="20dip"
+                      android:layout_alignParentRight="true"
+                      android:layout_centerVertical="true"
+                      android:layout_gravity="right"
+                      android:background="@drawable/btn_main"
+                      android:text="立即参与"
+                      android:textColor="@color/white" />-->
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>

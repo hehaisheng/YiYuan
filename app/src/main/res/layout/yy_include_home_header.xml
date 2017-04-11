@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--<include layout="@layout/yy_abc_home_header_toolbar" />-->
+
+    <com.shawnway.nav.app.yylg.view.MySlideShowView
+        android:id="@id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.shawnway.nav.app.yylg.view.MySlideShowView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/common_line" />
+
+    <TableLayout
+        android:id="@+id/home_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_background_with_white"
+        android:stretchColumns="*"></TableLayout>
+
+
+</LinearLayout><!--
+  <com.shawnway.nav.app.renyigou.view.MyGridLayout
+        android:id="@+id/home_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_background_with_white"
+        android:columnCount="3" />
+
+-->
+

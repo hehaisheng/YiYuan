@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_top_adjust_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@id/btn_catedrawer"
+            style="@style/TextView.list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center">
+
+            <TextView
+                android:id="@id/btn_catedrawer_tv"
+                style="@style/TextView.list"
+                android:textSize="16sp"
+                android:textColor="#ff999999"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="全部商品" />
+
+            <ImageView
+                android:id="@id/btn_catedrawer_img"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/arrow_up" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/divider_color" />
+
+        <LinearLayout
+            android:id="@id/btn_seartdrawer"
+            style="@style/TextView.list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center">
+
+            <TextView
+                android:id="@id/btn_seartdrawer_tv"
+                style="@style/TextView.list"
+                android:textSize="16sp"
+                android:textColor="#ff999999"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="即将揭晓" />
+
+            <ImageView
+                android:id="@id/btn_seartdrawer_img"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/arrow_up" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_color" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <FrameLayout
+            android:id="@id/content_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ListView
+            android:id="@id/drawer_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:background="@color/white"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@id/drawer_searchtype"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:divider="@color/divider_color"
+            android:background="@color/white"
+            android:dividerHeight="0dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/page_boarder_margin">
+
+    <TextView
+        android:id="@id/tv_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="账号：" />
+
+    <RadioGroup
+        android:id="@id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:checkedButton="@id/radio_modify_name"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@id/radio_modify_name"
+            style="@style/Button.main.medium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="修改昵称" />
+
+        <RadioButton
+            android:id="@id/radio_modify_pwd"
+            style="@style/Button.main.medium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="修改密码" />
+
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <!-- 修改昵称-->
+        <RelativeLayout
+            android:id="@id/layout_modify_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_old_pwd"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@id/layout_new_name_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@id/inputer_nickname"
+                    style="@style/EditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_old_pwd"
+                    android:singleLine="true"
+                    android:hint="@string/hint_new_nickname"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@id/bt_modify_nickname"
+                style="@style/Button.main"
+                android:layout_width="match_parent"
+                android:layout_below="@id/layout_new_name_wrapper"
+                android:layout_marginTop="20dp"
+                android:text="确   定"
+                />
+        </RelativeLayout>
+
+
+        <!-- 修改密码-->
+        <RelativeLayout
+            android:id="@id/layout_modify_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_old_pwd"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@id/layout_old_pwd_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@id/tv_old_pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="旧密码:" />
+
+                <EditText
+                    android:id="@id/inputer_old_pwd"
+                    style="@style/EditText.password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_old_pwd"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/layout_new_pwd_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_old_pwd_wrapper"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/tv_new_pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="新密码:" />
+
+                <EditText
+                    android:id="@id/inputer_new_pwd"
+                    style="@style/EditText.password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_old_pwd"
+                    android:hint="@string/hint_new_pwd"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@id/bt_modify_pwd"
+                style="@style/Button.main"
+                android:layout_width="match_parent"
+                android:layout_below="@id/layout_new_pwd_wrapper"
+                android:layout_marginTop="20dp"
+                android:text="确   定"
+                />
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

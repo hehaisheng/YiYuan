@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/OptionBar"
+    android:background="@null"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/winnercode_lable" />
+
+    <TextView
+        android:id="@+id/count"
+        style="@style/TextView.highlight"
+        android:text="220"
+        android:minWidth="14dp"/>
+
+    <TextView
+        style="@style/TextView"
+        android:text="人次" />
+</LinearLayout>

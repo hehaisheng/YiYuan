@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/wraper_callist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@id/caldetail_table_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/column_header_color"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/page_boarder_margin"
+                android:paddingTop="@dimen/page_boarder_margin">
+
+                <TextView
+                    android:id="@id/tips"
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/page_boarder_margin"
+                    android:layout_weight="@integer/caldet_col_one_weight"
+                    android:gravity="start"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/caldet_column_one" />
+
+
+                <TextView
+                    android:id="@id/tips"
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/page_boarder_margin"
+                    android:layout_weight="@integer/caldet_col_two_weight"
+                    android:gravity="start"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/caldet_column_two" />
+
+                <TextView
+                    android:id="@id/tips"
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/page_boarder_margin"
+                    android:layout_weight="@integer/caldet_col_three_weight"
+                    android:gravity="start"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/caldet_column_three" />
+            </LinearLayout>
+
+            <com.shawnway.nav.app.yylg.view.NoScrollListView
+                android:id="@id/lv_caldet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.shawnway.nav.app.yylg.view.NoScrollListView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/white" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/appcolor"
+                android:padding="@dimen/page_boarder_margin"
+                >
+
+                <TextView
+                    android:id="@id/caldetail_tv_endtime"
+                    style="@style/TextView.small.white"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/caldetail_label_endtime" />
+
+                <TextView
+                    style="@style/TextView.small.white"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/caldetail_tv_endtime"
+                    android:gravity="left"
+                    android:text="@string/caldetail_label_lasthundred" />
+
+                <TextView
+                    android:id="@+id/bt_caldet_openrecord"
+                    style="@style/Link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/caldetail_tv_endtime"
+                    android:text="@string/caldet_bt_open" />
+
+            </RelativeLayout>
+
+
+            <com.shawnway.nav.app.yylg.view.NoScrollListView
+                android:id="@id/lv_caldet_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/white" />
+
+        <include
+            layout="@layout/include_calculate_type1"
+            />
+
+        <include layout="@layout/include_calculate_type2"
+            />
+        <include
+            layout="@layout/include_calculate_type3"
+            />
+        <!-- <Button
+             android:id="@id/bt_gothirdpart"
+             style="@style/Button.white.boarder"
+             android:layout_marginTop="20dip"
+             android:layout_gravity="center"
+             android:text="@string/open_shishicai"
+             />-->
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_top_adjust_gray" />
+
+    <fragment
+        android:id="@id/fragment"
+        android:name="com.shawnway.nav.app.yylg.fragment.ShareContentFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <RelativeLayout
+        android:id="@id/notice_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_cart_notice"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="36.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip" >
+
+            <ImageView
+                android:id="@id/notice_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5.0dip"
+                android:adjustViewBounds="true"
+                android:maxHeight="30.0dip"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@id/notice_more"
+                android:layout_width="6.0dip"
+                android:layout_height="12.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:src="@drawable/ic_cart_notice_more"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@id/notice_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/notice_more"
+                android:layout_toRightOf="@id/notice_icon"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:singleLine="true"
+                android:textColor="@color/txt_cart_notice"
+                android:textSize="13.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <!--
+             <com.netease.mail.oneduobaohydrid.widget.CustomSwipeRefreshLayout
+            android:id="@id/swipe_refresh_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <com.netease.mail.oneduobaohydrid.widget.CustomListView
+                android:id="@id/cart"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@null"
+                custom:yy_padding_bottom="@dimen/index_tab_height" />
+        </com.netease.mail.oneduobaohydrid.widget.CustomSwipeRefreshLayout>
+
+        -->
+
+        <RelativeLayout
+            android:id="@+id/wraper_car_notempty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone">
+
+            <!--     <com.shawnway.nav.app.renyigou.view.MyRecyclerView
+                    android:id="@id/cart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_above="@id/footer"
+                    android:divider="@null" /> -->
+
+            <ViewStub
+                android:id="@id/cart_multi_view_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/index_tab_height"
+                android:layout_alignParentBottom="true"
+                android:layout="@layout/layout_cart_multi_bar" />
+
+            <RelativeLayout
+                android:id="@id/footer"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/index_tab_height"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/tab_border"
+                android:paddingLeft="@dimen/cart_adjust_amount_margin"
+                android:paddingRight="10.0dip" >
+
+                <Button
+                    android:id="@id/submit"
+                    style="@style/Button.main"
+                    android:layout_width="@dimen/cart_adjust_submit_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:minHeight="36.0dip"
+                    android:padding="0.0dip"
+                    android:text="@string/submitOrder" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/submit"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@id/amount_wrapper"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@id/amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="14.0sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cart_total"
+                            android:textColor="@color/gray"
+                            android:textSize="14.0sp" />
+
+                        <TextView
+                            android:id="@id/money"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textColor="@color/impt"
+                            android:textSize="14.0sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@id/prmote_amount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5.0dip"
+                        android:textColor="@color/impt"
+                        android:textSize="12.0sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

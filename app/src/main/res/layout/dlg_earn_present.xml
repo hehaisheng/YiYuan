@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sweet_dialog_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/common_column_margin"
+        android:layout_marginLeft="@dimen/common_column_big_margin"
+        android:layout_marginRight="@dimen/common_column_big_margin"
+        android:layout_marginTop="@dimen/common_column_margin">
+
+        <ImageView
+            android:id="@id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_present_dlg" />
+
+        <LinearLayout
+            android:id="@+id/winsepcail_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextView.small.noMinH"
+                android:text="已连续签到 " />
+
+            <TextView
+                style="@style/TextView.red"
+                android:text="30"
+                android:textSize="20sp" />
+
+            <TextView
+                style="@style/TextView.small.noMinH"
+                android:text=" 天" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/winspecail_point_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/winsepcail_wrapper"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+
+            <TextView
+                style="@style/TextView.small.noMinH"
+                android:text="获得连签奖励 " />
+
+            <TextView
+                android:id="@id/text"
+                style="@style/TextView.red"
+                android:textSize="20sp"
+                android:text="0" />
+
+            <TextView
+                style="@style/TextView.small.noMinH"
+                android:text=" 福分" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/winpoint_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/winspecail_point_wrapper"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextView.small.noMinH"
+                android:text="恭喜领取 " />
+
+            <TextView
+                android:id="@+id/text1"
+                style="@style/TextView.yellow"
+                android:text="50" />
+
+            <TextView
+                style="@style/TextView.small.noMinH"
+                android:text=" 福分 任务奖励" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/winday_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/winpoint_wrapper"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextView.small.noMinH"
+                android:text="已连续签到 " />
+
+            <TextView
+                android:id="@+id/text2"
+                style="@style/TextView.yellow"
+                android:text="0" />
+
+            <TextView
+                style="@style/TextView.small.noMinH"
+                android:text=" 天" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@id/button"
+            style="@style/Button"
+            android:layout_width="120dp"
+            android:layout_below="@id/winday_wrapper"
+            android:layout_centerHorizontal="true"
+            android:text="@string/ok" />
+
+    </RelativeLayout>
+
+</LinearLayout>

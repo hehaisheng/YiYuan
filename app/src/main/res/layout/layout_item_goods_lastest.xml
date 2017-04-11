@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lin="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/goods_bg"
+    android:paddingTop="@dimen/page_boarder_margin"
+    >
+
+
+    <com.shawnway.nav.app.yylg.view.CirclerImageView
+        android:id="@+id/result_goods_pic"
+        android:layout_width="100.0dip"
+        android:layout_height="100.0dip"
+        android:layout_marginLeft="@dimen/page_boarder_margin"
+        android:minWidth="140.0dip"
+        android:layout_marginBottom="@dimen/page_boarder_margin"
+        android:layout_marginRight="4dp"
+        android:scaleType="fitCenter"
+        />
+
+    <!--<LinearLayout
+        android:id="@id/result_goods_info_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/result_goods_pic"
+        android:layout_marginRight="@dimen/page_boarder_margin"
+        android:paddingRight="@dimen/page_boarder_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/result_goods_name"
+            style="@style/TextView.medium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="第xxx期" />
+
+        <TextView
+            android:id="@+id/result_goods_worth"
+            style="@style/TextView.small.gray"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_toRightOf="@id/result_goods_pic"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="商品价值： "
+            />
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@id/result_goods_info_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/result_goods_pic"
+        android:layout_marginRight="@dimen/page_boarder_margin"
+        android:paddingRight="@dimen/page_boarder_margin"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/result_goods_name"
+            style="@style/TextView.medium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="第xxx期" />
+
+        <TextView
+            android:id="@+id/result_goods_worth"
+            style="@style/TextView.small.gray"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_toRightOf="@id/result_goods_pic"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="商品价值： "
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/result_revealed_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/result_goods_pic"
+        android:layout_marginBottom="@dimen/page_boarder_margin"
+        android:layout_marginRight="@dimen/page_boarder_margin"
+        android:layout_below="@id/result_goods_info_wrapper"
+        android:background="@drawable/common_background"
+        android:orientation="vertical"
+        >
+
+        <!--<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextView"
+                android:text="幸运号码："/>
+
+            <TextView
+                android:id="@+id/result_revealed_code"
+                style="@style/TextView"
+                android:ellipsize="end"
+                android:lines="1" />
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextView.medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="获得者：" />
+
+            <TextView
+                android:id="@+id/result_revealed_name"
+                style="@style/TextView.medium"
+                android:textColor="@color/deepskyblue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="姓名" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextView.small.gray"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_toRightOf="@id/result_goods_pic"
+                android:text="本期参与： "
+                />
+
+            <TextView
+                android:id="@+id/result_revealed_num"
+                style="@style/TextView.small.gray"
+                android:textSize="14sp"
+                android:textColor="@color/appcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="num"
+                />
+
+            <TextView
+                style="@style/TextView.small.gray"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="人次 "
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/result_goods_worth2"
+            style="@style/TextView.small.gray"
+            android:layout_marginTop="6dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_toRightOf="@id/result_goods_pic"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="商品价值： "
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextView.small.gray"
+                android:textSize="10sp"
+                android:text="揭晓时间：" />
+
+            <TextView
+                android:id="@+id/result_revealed_time"
+                style="@style/TextView.small.gray"
+                android:textSize="10sp"
+                android:gravity="left"
+                android:layout_marginLeft="5dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="2014-09-09 12:32:21.111" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/result_revealing_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_goods_info_wrapper"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/page_boarder_margin"
+        android:paddingBottom="@dimen/page_boarder_margin"
+        android:layout_toRightOf="@id/result_goods_pic"
+        android:gravity="bottom"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/result_revealing_calculating"
+            style="@style/TextView.important"
+            android:textSize="15sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calculating"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/result_revealing_machinebreakdown"
+            style="@style/TextView.important"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="机器故障......"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+        <!--<com.shawnway.nav.app.yylg.view.CustomDigitalClock
+            android:id="@+id/result_revealing_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:text="05:08:19"
+            android:textColor="#ffdb3652"
+            android:textSize="30.0sp"
+            android:visibility="gone" />-->
+
+        <RelativeLayout
+            android:id="@+id/result_revealing_countdown_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="@drawable/btn_main_radius">
+
+            <TextView
+                android:id="@+id/result_revealing_countdown_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="揭晓倒计时   "
+                android:visibility="gone"/>
+
+            <cn.iwgang.countdownview.CountdownView
+                android:id="@+id/result_revealing_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9.0dip"
+                android:singleLine="true"
+                android:layout_toRightOf="@id/result_revealing_countdown_tv"
+                android:layout_centerVertical="true"
+                lin:isHideTimeBackground="true"
+                lin:isShowDay="false"
+                lin:isShowHour="false"
+                lin:isShowMinute="true"
+                lin:isShowSecond="true"
+                lin:isShowMillisecond="true"
+                lin:timeTextColor="@color/white"
+                lin:timeTextSize="15sp"
+                lin:isTimeTextBold="false"
+                lin:suffixGravity="center"
+                lin:suffixTextColor="@color/white"
+                lin:suffixTextSize="15sp"
+                android:visibility="gone"/>
+
+            <cn.iwgang.countdownview.CountdownView
+                android:id="@+id/result_revealing_countdown_hourtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9.0dip"
+                android:singleLine="true"
+                android:layout_toRightOf="@id/result_revealing_countdown_tv"
+                android:layout_centerVertical="true"
+                lin:isHideTimeBackground="true"
+                lin:isShowDay="false"
+                lin:isShowHour="true"
+                lin:isShowMinute="true"
+                lin:isShowSecond="true"
+                lin:isShowMillisecond="false"
+                lin:timeTextColor="@color/white"
+                lin:timeTextSize="15sp"
+                lin:isTimeTextBold="false"
+                lin:suffixGravity="center"
+                lin:suffixTextColor="@color/white"
+                lin:suffixTextSize="15sp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- <LinearLayout
+         android:id="@+id/caipiao_error"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="142.0dip"
+         android:orientation="vertical"
+         android:paddingLeft="10.0dip"
+         android:paddingRight="10.0dip"
+         android:paddingTop="10.0dip"
+         android:visibility="gone">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="非常抱歉~"
+             android:textColor="#ff999999"
+             android:textSize="13.0sp" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="福彩中心通讯故障，等待恢复中..."
+             android:textColor="#ff999999"
+             android:textSize="13.0sp" />
+     </LinearLayout>-->
+
+    <ImageView
+        android:layout_width="1.0px"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="#ffe4e4e4" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_alignParentBottom="true"
+        android:background="#ffdcdcdc" />
+    <ImageView
+        android:id="@+id/bold_border"
+        android:layout_width="fill_parent"
+        android:layout_height="3dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/appcolor" />
+
+    <include layout="@layout/include_tab_icon_layout" />
+</RelativeLayout>

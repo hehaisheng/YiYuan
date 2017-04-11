@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <ScrollView
+        android:id="@+id/login_phone_input_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/regist_scroller_relative"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dip" >
+
+                <RelativeLayout
+                    android:id="@+id/login_page_input_name_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dip" >
+
+                    <EditText
+                        android:id="@+id/login_input_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/ic_phone"
+                        android:hint="@string/regist_input_hint_phone"
+                        android:inputType="number"
+                        android:singleLine="true" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/common_line" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/login_page_input_password_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/login_page_input_name_layout"
+                    android:paddingTop="25dp" >
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/login_send_customercode"
+                    style="@style/Button.main.Border"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@id/login_page_input_password_layout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20.0dp"
+                    android:layout_marginTop="15.0dp"
+                    android:text="@string/regist_cfmsend_btn" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/login_phone_confirm_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/login_confirm_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top_relative"
+                android:padding="15dip" >
+
+                <LinearLayout
+                    android:id="@id/wrapper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                    android:id="@id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:background="@null"
+                    android:text="@string/laststep"
+                    style="@style/TextView.back.yellow"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/regist_msg_send_fixinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/regist_msg_sendedto" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/regist_msg_sended_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/wrapper"
+                    android:singleLine="true"
+                    android:text="@string/regist_msg_sendedtodef" />
+
+                <RelativeLayout
+                    android:id="@+id/login_input_customercode_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/regist_msg_sended_text"
+                    android:paddingTop="35dip" >
+
+                    <EditText
+                        android:id="@+id/login_input_customercode"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/ic_login_verify"
+                        android:hint="@string/regist_input_hint_verifycode"
+                        android:inputType="number"
+                        android:singleLine="true" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/common_line" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/login_confirm_btn"
+                    style="@style/Button.main.Border"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@id/login_input_customercode_layout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20.0dp"
+                    android:layout_marginTop="15.0dp"
+                    android:text="@string/regist_cfmregist_btn" />
+
+                <Button
+                    android:id="@+id/login_resend"
+                    style="@style/Button.main"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@id/login_confirm_btn"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20.0dp"
+                    android:layout_marginTop="15.0dp"
+                    android:enabled="false"
+                    android:text="@string/regist_countdown_btn" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

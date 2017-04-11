@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_catagory_title">
+        <item>人气商品</item>
+        <item>最新进度</item>
+    </string-array>
+</resources>

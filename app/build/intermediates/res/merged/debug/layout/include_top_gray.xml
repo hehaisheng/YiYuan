@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/toolbar"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:background="@drawable/top_gray_border"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@id/top_back"
+        android:layout_width="50dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/main_top_bg"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip"
+        android:src="@drawable/ic_top_back"
+        android:onClick="onClick"
+        android:visibility="gone"/>
+ <TextView
+        android:id="@id/top_back_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/main_top_bg"
+        android:layout_toRightOf="@id/top_back"
+        android:text=""
+        android:textColor="@color/main_top_color_gray"
+        android:textSize="14.0sp"
+        android:onClick="onClick"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@id/top_text_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10.0dip"
+        android:text=""
+        android:textColor="@color/main_top_color_gray"
+        android:textSize="18.0sp"
+        android:visibility="gone" />
+
+    <com.shawnway.nav.app.yylg.view.TabButton
+        android:id="@id/top_cart"
+        android:layout_width="@dimen/action_bar_height"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/main_top_bg"
+        android:minWidth="@dimen/action_bar_button_min_width"
+        android:paddingLeft="12.0dip"
+        android:paddingRight="12.0dip"
+        app:image="@drawable/ic_top_cart"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/action_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/main_top_bg"
+        android:gravity="center"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:text="@string/action_edit"
+        android:textColor="@color/impt"
+        android:textSize="14.0sp"
+        android:visibility="gone" />
+    
+     <TextView
+        android:id="@id/action_gray_common"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/main_top_bg"
+        android:gravity="center"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:text="@string/action_edit"
+        android:textColor="@color/main_top_color_gray"
+        android:textSize="14.0sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

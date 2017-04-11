@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_top_gray" />
+
+    <LinearLayout
+        style="@style/paddingLeftRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp">
+
+            <EditText
+                android:id="@+id/withdraw_deposit_edit_phone"
+                style="@style/normalTextStyle"
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:hint="手机号码"
+                android:inputType="number"
+                android:singleLine="true" />
+
+            <View
+                style="@style/diliverStyle"
+                android:layout_height="1dp"
+                android:layout_below="@+id/withdraw_deposit_edit_phone"
+                android:layout_marginTop="4dp"
+                android:background="@color/common_line" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp">
+
+            <EditText
+                android:id="@+id/withdraw_deposit_edit_user_name"
+                style="@style/normalTextStyle"
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_user"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:hint="姓名"
+                android:singleLine="true" />
+
+            <View
+                style="@style/diliverStyle"
+                android:layout_height="1dp"
+                android:layout_below="@+id/withdraw_deposit_edit_user_name"
+                android:layout_marginTop="4dp"
+                android:background="@color/common_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp">
+
+            <EditText
+                android:id="@+id/withdraw_deposit_edit_user_tb_account"
+                style="@style/normalTextStyle"
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_user_gray"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:hint="淘宝账号"
+                android:singleLine="true" />
+
+            <View
+                style="@style/diliverStyle"
+                android:layout_height="1dp"
+                android:layout_below="@+id/withdraw_deposit_edit_user_tb_account"
+                android:layout_marginTop="4dp"
+                android:background="@color/common_line" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/grayTextStyle"
+                android:text="充值卡面额为：" />
+
+            <TextView
+                android:id="@+id/withdraw_deposit_amountOfcard"
+                style="@style/grayTextStyle"
+                android:layout_marginLeft="10dp"
+                android:textSize="17sp"
+                tools:text="100元" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_withdraw_deposit"
+            style="@style/Button.main.Border"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15.0dp"
+            android:text="提交" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/withdraw_promt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请仔细核对，提交后将无法更改!"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+
+        />
+</LinearLayout>

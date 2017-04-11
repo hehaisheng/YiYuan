@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/abc_home_header_toolbar" />
+
+    <com.shawnway.nav.app.yylg.view.PagerSlidingTabStrip
+        android:id="@id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        app:pstsDividerColor="@color/transparent"
+        app:pstsIndicatorColor="@color/white"
+        app:pstsIndicatorHeight="0.15"
+        app:pstsShouldExpand="true"
+        android:background="@color/appcolor"
+        app:pstsUnderlineColor="@color/dark_gray"
+        app:pstsUnderlineHeight="0.1dp"
+        app:selectedTabTextColor="@color/white"
+        app:textcolor="@color/white"
+        />
+
+    <com.shawnway.nav.app.yylg.view.MyViewPager
+        android:id="@id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

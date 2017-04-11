@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/page_boarder_margin"
+    android:orientation="vertical">
+
+
+    <RadioGroup
+        android:id="@id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/radio"
+        android:orientation="horizontal">
+
+
+
+            <RadioButton
+                style="Radio"
+                android:id="@id/radio"
+                android:layout_weight="1"
+                android:tag="50"
+                android:text="￥50" />
+
+            <RadioButton
+                style="Radio"
+                android:layout_weight="1"
+                android:tag="100"
+                android:text="￥100" />
+
+            <RadioButton
+                style="Radio"
+                android:layout_weight="1"
+                android:tag="200"
+                android:text="￥200" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text="@string/charge_money_inputer_label" />
+
+        <EditText
+            android:id="@id/money_inputer"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </LinearLayout>
+</LinearLayout>

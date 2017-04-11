@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/layout_modify_pwd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tv_old_pwd"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:padding="@dimen/page_boarder_margin">
+
+    <!--<LinearLayout
+        android:id="@id/layout_name_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lable_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/selfpick_label_name" />
+
+        <TextView
+            android:id="@id/tv_name"
+            style="@style/TextView.yellow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selfpick_name"
+            android:gravity="left" />
+    </LinearLayout>-->
+
+    <!--<LinearLayout
+        android:id="@id/layout_address_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@id/lable_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/selfpick_label_address" />
+
+        <TextView
+            android:id="@id/tv_address"
+            style="@style/TextView.yellow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/selfpick_address" />
+    </LinearLayout>-->
+    <!--<LinearLayout
+        android:id="@id/layout_hotline_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@id/lable_hotline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/selfpick_label_hotline" />
+
+        <TextView
+            android:id="@id/tv_hotline"
+            style="@style/TextView.yellow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/selfpick_hotline" />
+    </LinearLayout>-->
+   <TextView
+       style="@style/TextView.small"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:text="@string/choose_tips_gorealshop"
+       android:textSize="16sp"
+       android:gravity="left"
+       />
+<!--
+    <Button
+        android:id="@id/submit"
+        style="@style/Button.main"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:minWidth="@dimen/bt_min_width"
+        android:text="确认使用该方式"
+        android:visibility="gone"/>-->
+
+
+</LinearLayout>

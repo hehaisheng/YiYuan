@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="97.0dip"
+    android:background="@drawable/goods_bg"
+    android:clickable="true">
+
+    <com.shawnway.nav.app.yylg.view.CirclerImageView
+        android:id="@+id/goods_img"
+        android:layout_width="90.0dip"
+        android:layout_height="68.0dip"
+        android:layout_marginLeft="@dimen/page_boarder_margin"
+        android:layout_marginTop="15.0dip"
+        android:src="@drawable/img_blank" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_toRightOf="@id/goods_img">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15.0dip"
+            android:ellipsize="end"
+            android:lineSpacingExtra="3.0dip"
+            android:lines="2"
+            android:textColor="#ff666666"
+            android:textSize="13.0sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="6.0dip"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextView.small"
+                android:text="本期商品你共参与了 " />
+
+            <TextView
+                android:id="@+id/amount"
+                style="@style/TextView.small.yellow"
+                android:text="0" />
+
+            <TextView
+                style="@style/TextView.small"
+                android:text=" 人次" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_alignParentBottom="true"
+        android:background="#ffdcdcdc" />
+
+    <include layout="@layout/include_tab_icon_layout" />
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/include_top_adjust_gray" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:src="@drawable/ic_commision" />
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/icon"
+            android:background="@color/transparent"
+            android:text="@string/commission_info_title" />
+
+        <TextView
+            android:id="@id/tv_commission"
+            style="@style/TextView.big.yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/page_boarder_margin"
+            android:background="@color/transparent"
+            android:text="￥0.00" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_color" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@id/tips"
+            style="@style/TextView.big.gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/common_column_medium_margin"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:text="@string/commission_tips" />
+
+        <RelativeLayout
+            android:id="@id/commission_continue_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tips"
+            android:layout_marginBottom="@dimen/common_column_medium_margin"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:layout_marginRight="@dimen/page_boarder_margin">
+
+            <Button
+                android:id="@id/bt_continue"
+                style="@style/Button.main.radio"
+                android:layout_centerVertical="true"
+                android:minWidth="120dp"
+                android:onClick="onClick"
+                android:text="@string/go_balance" />
+
+            <TextView
+                style="@style/TextView.gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_toRightOf="@id/bt_continue"
+                android:layout_marginLeft="@dimen/page_boarder_margin"
+                android:text="@string/commission_tips_balance" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/commission_cash_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignLeft="@id/commission_continue_wrapper"
+            android:layout_alignStart="@id/commission_continue_wrapper"
+            android:layout_below="@id/commission_continue_wrapper"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:layout_marginRight="@dimen/page_boarder_margin">
+
+
+            <Button
+                android:id="@id/bt_get_cash"
+                style="@style/Button.main.login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dp"
+                android:onClick="onClick"
+                android:text="@string/app_commi" />
+            <TextView
+                style="@style/TextView.gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/page_boarder_margin"
+                android:gravity="left"
+                android:layout_toRightOf="@id/bt_get_cash"
+                android:text="@string/commission_tips_cash" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

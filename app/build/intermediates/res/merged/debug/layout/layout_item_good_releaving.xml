@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:lin="http://schemas.android.com/apk/res-auto"
+    android:id="@id/panel_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="@drawable/goods_releaved_bg"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+    <!--
+        <com.etsy.android.grid.util.DynamicHeightTextView
+            android:id="@+id/txt_line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" /> -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <com.shawnway.nav.app.yylg.view.CirclerImageView
+                android:id="@+id/result_goods_pic"
+                android:layout_width="match_parent"
+                android:layout_height="105.0dip"
+                android:minWidth="140.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingTop="10.0dip"
+                />
+
+            <TextView
+                android:id="@+id/result_goods_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5.0dip"
+                android:padding="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="第xxx期"
+                android:textColor="#ff666666"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/result_revealed_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="130.0dip"
+            android:background="@drawable/common_background"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical"
+            android:paddingLeft="5.0dip"
+            android:paddingRight="5.0dip"
+            android:paddingBottom="10dp"
+            android:paddingTop="3dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="获得者："
+                    android:textColor="#ff999999"
+                    android:textSize="12.0sp" />
+
+                <TextView
+                    android:id="@+id/result_revealed_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:textColor="@color/deepskyblue"
+                    android:text="小超超"
+                    android:lines="1"
+                    android:textSize="12.0sp" />
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="参与人次："
+                    android:textColor="#ff999999"
+                    android:textSize="12.0sp" />
+
+                <TextView
+                    android:id="@+id/result_revealed_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="10"
+                    android:textColor="#ff999999"
+                    android:textSize="12.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="幸运号码："
+                    android:textColor="#ff999999"
+                    android:textSize="12.0sp" />
+
+                <TextView
+                    android:id="@+id/result_revealed_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="#ffdb3652"
+                    android:textSize="12.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="揭晓时间："
+                    android:textColor="#ff999999"
+                    android:textSize="12.0sp" />
+
+                <TextView
+                    android:id="@+id/result_revealed_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="#ff999999"
+                    android:textSize="12.0sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="揭晓"
+                    android:textColor="#ff999999"
+                    android:textSize="12.0sp"
+                    android:visibility="gone" />
+            </LinearLayout>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/result_revealing_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="132.0dip"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ic_revealing2_id"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:scaleType="fitXY"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_revealing2" />
+
+                <TextView
+                    style="@style/TextView.yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:singleLine="true"
+                    android:layout_toRightOf="@id/ic_revealing2_id"
+                    android:textSize="13sp"
+                    android:text="即将开奖" />
+            </RelativeLayout>-->
+
+            <TextView
+                android:id="@+id/result_revealing_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9.0dip"
+                android:text="请稍后，正在计算…"
+                android:singleLine="true"
+                android:textColor="@color/appcolor"
+                android:textSize="12.0sp"
+                android:visibility="gone"/>
+
+            <!--<com.shawnway.nav.app.yylg.view.CustomDigitalClock
+                android:id="@+id/result_revealing_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                android:textColor="#ffdb3652"
+                android:textSize="30.0sp"
+                android:visibility="gone" />-->
+            <cn.iwgang.countdownview.CountdownView
+                android:id="@+id/result_revealing_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                lin:isHideTimeBackground="true"
+                lin:isShowDay="false"
+                lin:isShowHour="false"
+                lin:isShowMinute="true"
+                lin:isShowSecond="true"
+                lin:isShowMillisecond="true"
+                lin:timeTextColor="@color/appcolor"
+                lin:timeTextSize="14sp"
+                lin:isTimeTextBold="false"
+                lin:suffixGravity="center"
+                lin:suffixTextColor="@color/appcolor"
+                lin:suffixTextSize="14sp"
+                android:visibility="gone"/>
+
+            <cn.iwgang.countdownview.CountdownView
+                android:id="@+id/result_revealing_countdown_hourtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                lin:isHideTimeBackground="true"
+                lin:isShowDay="false"
+                lin:isShowHour="true"
+                lin:isShowMinute="true"
+                lin:isShowSecond="true"
+                lin:isShowMillisecond="false"
+                lin:timeTextColor="@color/appcolor"
+                lin:timeTextSize="14sp"
+                lin:isTimeTextBold="false"
+                lin:suffixGravity="center"
+                lin:suffixTextColor="@color/appcolor"
+                lin:suffixTextSize="14sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <!-- <LinearLayout
+             android:id="@+id/caipiao_error"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="142.0dip"
+             android:orientation="vertical"
+             android:paddingLeft="10.0dip"
+             android:paddingRight="10.0dip"
+             android:paddingTop="10.0dip"
+             android:visibility="gone">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="非常抱歉~"
+                 android:textColor="#ff999999"
+                 android:textSize="13.0sp" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="福彩中心通讯故障，等待恢复中..."
+                 android:textColor="#ff999999"
+                 android:textSize="13.0sp" />
+         </LinearLayout>-->
+
+
+
+        <include layout="@layout/include_tab_icon_layout" />
+    </RelativeLayout>
+
+</FrameLayout>

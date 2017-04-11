@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\activity_welcome.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\layout-v17\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\abc_alert_dialog_material.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\layout-v17\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\layout_cart.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\layout-v17\\layout_cart.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\base_fragment_webbase.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\layout-v17\\base_fragment_webbase.xml"
+    }
+]

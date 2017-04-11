@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/grant_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_grant_time"
+            style="@style/TextView"
+            android:textSize="10sp"
+            android:textColor="@color/good_detail_swipe_text_color"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_gravity="center_vertical"
+            android:text="2016-06-06 14:36:37"
+            />
+
+        <TextView
+            android:id="@id/tv_payee"
+            style="@style/TextView"
+            android:textColor="@color/good_detail_swipe_text_color"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_gravity="center_vertical"
+            android:text="00000000000"
+            />
+
+        <TextView
+            android:id="@+id/tv_grant_amount"
+            style="@style/TextView"
+            android:textColor="@color/good_detail_swipe_text_color"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical"
+            android:text="0.00"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/grant_wrapper"
+        android:layout_width="match_parent"
+        android:background="@color/appcolor_light"
+        android:layout_height="1dp"/>
+
+    <!--<ImageButton
+        android:id="@id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/is_ic_refrashbar_cancel_press"
+        />-->
+</RelativeLayout>

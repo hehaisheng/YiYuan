@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@id/toolbar"
+            layout="@layout/include_top_adjust_gray" />
+
+        <com.shawnway.nav.app.yylg.abview.MissionItemView
+            android:id="@+id/mission0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:tag="m0"
+            my:mivDesc="连续签到30天可获得神秘礼品一份（随机1000福分到30000福分）"
+            my:mivReward="50福分"
+            my:mivTitle="每日签到"
+            my:mivSta="complete"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="已签到 " />
+
+
+            <TextView
+                style="@style/TextView.red"
+                android:id="@+id/sign_count"
+                android:textSize="16sp"
+                tools:text="0"
+                android:text="- - "
+                android:textColor="@color/appcolor_deep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text=" 天" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            tools:visibility="visible"
+            android:id="@+id/sign_30_wrapper"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="已经连续签到三十天，获得 " />
+
+
+            <TextView
+                android:id="@+id/sign_30_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1000"
+                android:textSize="16sp"
+                style="@style/TextView.red"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text=" 福分" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

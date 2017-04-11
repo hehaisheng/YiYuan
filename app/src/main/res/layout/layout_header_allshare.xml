@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.shawnway.nav.app.yylg.view.MySlideShowView
+        android:id="@id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:mssvFocus="@drawable/dot_focused"
+        my:mssvBlur="@drawable/dot_blured_tran"
+        my:mssvMask="@color/slider_mask"
+        />
+</LinearLayout>

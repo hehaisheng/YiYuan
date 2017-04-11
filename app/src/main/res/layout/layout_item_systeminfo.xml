@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f5f5f5">
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/systemback"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        >
+        <TextView
+            android:id="@+id/systeminfo_title"
+            android:layout_width="0dp"
+            app:layout_widthPercent="60%w"
+            android:layout_height="wrap_content"
+            android:text="关于系统升级维护的通知"
+            android:textColor="@color/dark_dialog_bg"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_marginTopPercent="2%w"
+            app:layout_marginLeftPercent="2%w"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/systeminfo_time"
+            android:layout_width="0dp"
+            app:layout_widthPercent="40%w"
+            android:layout_height="wrap_content"
+            android:text="2017-02-28 10:10"
+            android:textColor="@color/dark_dialog_bg"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:ellipsize="end"
+            app:layout_marginTopPercent="2%w"
+            app:layout_marginLeftPercent="2%w"
+            android:maxLines="1"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/systeminfo_notify"
+            android:layout_width="0dp"
+            app:layout_widthPercent="40%w"
+            android:layout_height="wrap_content"
+            android:text="亲爱的小伙伴："
+            android:textColor="@color/dark_dialog_bg"
+            android:layout_below="@+id/systeminfo_title"
+            android:gravity="center"
+            app:layout_marginTopPercent="2%w"
+            app:layout_marginLeftPercent="3%w"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/systeminfo_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="为了给亲们带来更好的夺宝体验，我们公司"
+            android:textColor="@color/dark_dialog_bg"
+            android:layout_below="@+id/systeminfo_notify"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_marginTopPercent="2%w"
+            app:layout_marginLeftPercent="7%w"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/systeminfo_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看详情>"
+            android:textSize="17sp"
+            android:textColor="@color/dodgerblue"
+            android:layout_below="@+id/systeminfo_content"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+</LinearLayout>

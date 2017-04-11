@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_color"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <com.shawnway.nav.app.yylg.view.TabButton
+            android:id="@+id/tab_first"
+            style="@style/main_tabbutton"
+            app:clickimage="@drawable/tab_home_clicked"
+            app:image="@drawable/tab_home"
+            app:text="@string/home_tabtitle" />
+
+        <com.shawnway.nav.app.yylg.view.TabButton
+            android:id="@+id/tab_second"
+            style="@style/main_tabbutton"
+            app:clickimage="@drawable/tab_share_clicked"
+            app:image="@drawable/tab_share"
+            app:text="@string/share_tabtitle" />
+
+        <com.shawnway.nav.app.yylg.view.TabButton
+            android:id="@+id/tab_third"
+            style="@style/main_tabbutton"
+            app:clickimage="@drawable/tab_cart_clicked"
+            app:image="@drawable/tab_cart"
+            app:text="@string/cart_tabtitle" />
+
+        <com.shawnway.nav.app.yylg.view.TabButton
+            android:id="@+id/tab_fourth"
+            style="@style/main_tabbutton"
+            app:clickimage="@drawable/tab_me_clicked"
+            app:image="@drawable/tab_me"
+            app:text="@string/mycenter_tabtitle" />
+    </LinearLayout>
+</LinearLayout>

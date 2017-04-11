@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ProgressBar
+        android:id="@id/mpbProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/rect_goods_progress_height"
+        android:layout_marginTop="1.0dip"
+        android:indeterminateOnly="false"
+        android:max="1000"
+        android:progressDrawable="@drawable/abc_progressbar_layer" />
+
+    <RelativeLayout
+        android:id="@id/progress_data_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@id/tv_joined"
+            style="@style/TextView.small"
+            android:text="202"
+            android:textColor="@color/appcolor" />
+
+        <TextView
+            android:id="@id/tv_total"
+            style="@style/TextView.small"
+            android:layout_centerHorizontal="true"
+            android:text="2002"
+            android:textColor="@color/appcolor_gray" />
+
+        <TextView
+            android:id="@id/tv_left"
+            style="@style/TextView.small"
+            android:layout_alignParentRight="true"
+            android:text="2002"
+            android:textColor="@color/appcolor_left" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@id/progress_data_label_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextView.small"
+            android:textSize="10sp"
+            android:text="@string/joined"
+            android:textColor="@color/appcolor_gray"  />
+
+        <TextView
+            style="@style/TextView.small"
+            android:textSize="10sp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/total"
+            android:textColor="@color/appcolor_gray" />
+
+        <TextView
+            style="@style/TextView.small"
+            android:textSize="10sp"
+            android:layout_alignParentRight="true"
+            android:text="@string/left"
+            android:textColor="@color/appcolor_gray"  />
+    </RelativeLayout>
+
+</LinearLayout>

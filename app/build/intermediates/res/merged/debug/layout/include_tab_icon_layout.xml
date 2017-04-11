@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+
+
+    <ImageView
+        android:id="@+id/good_ten_label"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:src="@drawable/ic_ten_label"
+        android:visibility="gone" />
+
+
+
+    <ImageView
+        android:id="@+id/custom_top_left_icon"
+        android:layout_width="40.0dip"
+        android:layout_height="30.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:visibility="gone" />
+
+</LinearLayout>

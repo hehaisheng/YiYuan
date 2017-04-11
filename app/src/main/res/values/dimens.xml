@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="max_text_size">30dp</dimen>
+    <dimen name="max_radius">1000.0dip</dimen>
+    <dimen name="cart_adjust_checkbox_margin_right">-5.0dip</dimen>
+    <dimen name="cart_adjust_common_margin">4.0dip</dimen>
+    <dimen name="cart_number_picker_distance">4.0dip</dimen>
+    <dimen name="action_bar_button_min_width">55.0dip</dimen>
+    <dimen name="action_bar_height">44.0dp</dimen>
+    <dimen name="cart_adjust_amount_margin">15.0dip</dimen>
+    <dimen name="cart_adjust_submit_width">80.0dip</dimen>
+    <dimen name="common_text_size">14.0sp</dimen>
+
+
+    <dimen name="divider_size">1.0px</dimen>
+
+    <item name="customer_header_size" type="dimen">44.0dip</item>
+    <item name="text_gridview_margin_top" type="dimen">60dp</item>
+
+    <dimen name="index_tab_height">56.0dip</dimen>
+    <dimen name="index_tab_height_double">112.0dip</dimen>
+    <dimen name="index_tab_icon_margin_top">7.0dip</dimen>
+    <dimen name="number_picker_radius">2.0dip</dimen>
+    <dimen name="progress_bar_height">3.0dip</dimen>
+    <dimen name="rect_goods_progress_height">6.0dip</dimen>
+    <dimen name="rect_goods_progress_width">145.0dip</dimen>
+    <dimen name="shadow_width">15.0dip</dimen>
+    <dimen name="slidingmenu_offset">60.0dip</dimen>
+    <dimen name="square_goods_progress_width">80.0dip</dimen>
+    <dimen name="win_detail_status_item_height">44.0dip</dimen>
+    <dimen name="zero">0.0dip</dimen>
+    <dimen name="joinlist_margintop">5dip</dimen>
+    <dimen name="page_boarder_margin">10dp</dimen>
+    <dimen name="common_column_medium_margin">32dp</dimen>
+    <dimen name="common_column_margin">20dp</dimen>
+    <dimen name="common_column_small_margin">15dp</dimen>
+    <dimen name="page_top_margin">15dp</dimen>
+    <dimen name="common_bt_topbottom_margin">25dp</dimen>
+    <dimen name="common_column_big_margin">50dp</dimen>
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+
+    <dimen name="elevation_low">9dp</dimen>
+    <dimen name="elevation_high">12dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="image_size">120dp</dimen>
+    <dimen name="space_size">2dp</dimen>
+    <dimen name="folder_cover_size">72dp</dimen>
+    <dimen name="image_selector_imageview_size">80dp</dimen>
+    <dimen name="common_column_very_small_margin">4dip</dimen>
+    <dimen name="image_gridview_margin">8dp</dimen>
+    <dimen name="image_gridview_width">40dp</dimen>
+    <dimen name="grid_height">90dip</dimen>
+    <dimen name="bt_min_width">130dp</dimen>
+    <dimen name="slider_margin">7dip</dimen>
+    <dimen name="detail_bottombar_height">60.0dip</dimen>
+
+    <dimen name="user_table_height">90.0dp</dimen>
+    <dimen name="user_table_img_margintop">10.0dp</dimen>
+    <dimen name="user_table_tv_margintop">65.0dp</dimen>
+
+    <dimen name="btn_width">120.0dp</dimen>
+    <dimen name="btn_height">30.0dp</dimen>
+
+
+</resources>

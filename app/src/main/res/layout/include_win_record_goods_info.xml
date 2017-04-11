@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <com.shawnway.nav.app.yylg.view.CirclerImageView
+        android:id="@id/image"
+        android:layout_width="100.0dip"
+        android:layout_height="75.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:src="@drawable/ic_avatar_default"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:layout_toRightOf="@id/image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff666666"
+            android:maxLines="2"
+            android:text="姓名"/>
+
+        <TextView
+            android:id="@id/luckycode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:textColor="#ff666666"
+            android:text="幸运中奖号码：xxxxxx"/>
+
+        <TextView
+            android:id="@id/announcetime"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:textColor="#ff999999"
+            android:text="揭晓时间：xxxx-xx-xx"/>
+    </LinearLayout>
+</RelativeLayout>

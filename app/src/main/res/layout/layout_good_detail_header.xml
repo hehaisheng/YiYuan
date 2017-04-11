@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:lin="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_countdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:src="@drawable/clock" />
+
+        <TextView
+            android:id="@+id/detail_cdTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@id/iv_clock"
+            android:text="揭晓倒计时"
+            android:textColor="@color/deepskyblue"
+            android:textSize="18.0sp" />
+
+        <cn.iwgang.countdownview.CountdownView
+            android:id="@+id/layout_countdown_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@id/detail_cdTitle"
+            android:visibility="gone"
+            lin:isHideTimeBackground="false"
+            lin:isShowDay="false"
+            lin:isShowHour="false"
+            lin:isShowMillisecond="true"
+            lin:isShowMinute="true"
+            lin:isShowSecond="true"
+            lin:isTimeTextBold="true"
+            lin:suffixGravity="center"
+            lin:suffixTextColor="#5b79fe"
+            lin:suffixTextSize="22sp"
+            lin:timeBgColor="#5b79fe"
+            lin:timeBgRadius="3dp"
+            lin:timeTextColor="#ffffff"
+            lin:timeTextSize="22sp" />
+
+        <cn.iwgang.countdownview.CountdownView
+            android:id="@+id/layout_countdown_hourtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@id/detail_cdTitle"
+            android:visibility="gone"
+            lin:isHideTimeBackground="false"
+            lin:isShowDay="false"
+            lin:isShowHour="true"
+            lin:isShowMillisecond="false"
+            lin:isShowMinute="true"
+            lin:isShowSecond="true"
+            lin:isTimeTextBold="true"
+            lin:suffixGravity="center"
+            lin:suffixTextColor="#5b79fe"
+            lin:suffixTextSize="22sp"
+            lin:timeBgColor="#5b79fe"
+            lin:timeBgRadius="3dp"
+            lin:timeTextColor="#ffffff"
+            lin:timeTextSize="22sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_calculating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/lable_calculating"
+            style="@style/TextView.gray"
+            android:layout_alignLeft="@id/detail_calculating"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/calculating" />
+
+
+        <ImageView
+            android:id="@id/detail_calculating"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:layout_below="@id/lable_calculating"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5.0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@anim/detail_progressbar" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_machinebreakdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/lable_machinebreakdown"
+            style="@style/TextView.gray"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:text="机器故障......" />
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginTop="5.0dip">
+
+        <com.shawnway.nav.app.yylg.view.MySlideShowView
+            android:id="@id/slider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:background="@color/white" />
+
+        <include layout="@layout/include_tab_icon_layout" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip">
+
+        <FrameLayout
+            android:id="@+id/detail_title_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@id/detail_title_state_going"
+                style="@style/TextView.small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@drawable/btn_main_boarder"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="进行中"
+                android:textColor="@color/appcolor"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@id/detail_title_state_calting"
+                style="@style/TextView.small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@drawable/btn_main_boarder"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="计算中"
+                android:textColor="@color/appcolor"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/detail_title_state_countdown"
+                style="@style/TextView.small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@drawable/btn_main_boarder"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="揭晓中"
+                android:textColor="@color/appcolor"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@id/detail_title_state_announced"
+                style="@style/TextView.small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@drawable/btn_main_boarder"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="已揭晓"
+                android:textColor="@color/appcolor"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/detail_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_title_state"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="4.0dip"
+            android:maxLines="2"
+            android:text="商品标题"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_progressbar_worth"
+            style="@style/TextView.gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_title"
+            android:layout_gravity="top|center|left"
+            android:layout_marginTop="10dp"
+            android:text="@string/detail_good_progressbar_worth" />
+
+        <Button
+            android:id="@+id/bt_willReveal_calaDet"
+            style="@style/Button.main.medium.radio"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_progressbar_worth"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:enabled="true"
+            android:onClick="onClick"
+            android:paddingBottom="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="5dp"
+            android:text="计算详情"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:orientation="vertical" />
+
+
+    <FrameLayout
+        android:id="@+id/layout_progressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginTop="5.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:visibility="gone">
+
+
+        <com.shawnway.nav.app.yylg.view.MyProgressBar
+            android:id="@id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_revealed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@id/iv_revealed_avatar"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/portrait"
+                    app:civ_border_color="@color/transparent"
+                    app:civ_border_width="2dp" />
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10.0dip"
+                    android:paddingTop="15.0dip">
+
+                    <LinearLayout
+                        android:id="@+id/label_name_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/label_name"
+                            style="@style/TextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/detail_good_releaved_name"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/tv_revealed_onName"
+                            style="@style/TextView.link"
+                            android:layout_toRightOf="@id/label_name"
+                            android:onClick="onClick"
+                            android:text="Kevin"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@id/tv_city"
+                        style="@style/TextView.notimportant"
+                        android:layout_below="@id/label_name_container"
+                        android:textColor="#eea3a3a3"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_revealed_annTime"
+                        style="@style/TextView.notimportant"
+                        android:layout_below="@id/tv_city"
+                        android:text="揭晓时间："
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_revealed_buyTime"
+                        style="@style/TextView.notimportant"
+                        android:layout_below="@id/tv_revealed_annTime"
+                        android:text="购买时间："
+                        android:textSize="12sp" />
+
+                    <!--<TextView
+                        android:id="@+id/tv_revealed_myJoinCnt"
+                        android:layout_below="@id/tv_revealed_buyTime"
+                        style="@style/TextView.notimportant"
+                        android:textSize="14sp"
+                        android:text="本期参与：" />-->
+
+                    <TextView
+                        android:id="@+id/tv_revealed_winnerJoinCnt"
+                        style="@style/TextView.notimportant"
+                        android:layout_width="wrap_content"
+                        android:layout_below="@id/tv_revealed_buyTime"
+                        android:text="获奖者在本期参与："
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@id/tv_getcode"
+                    style="@style/TextView.highlight"
+                    android:layout_alignParentRight="true"
+                    android:onClick="onClick"
+                    android:text="查看>"
+                    android:textColor="@color/deepskyblue"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@color/divider_color" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip">
+
+                <TextView
+                    android:id="@+id/detail_lkTitle"
+                    style="@style/TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:text="幸运号码："
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_revealed_onLuck"
+                    style="@style/TextView.highlight"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_toRightOf="@+id/detail_lkTitle"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bt_revealed_calaDet"
+                    style="@style/Button.main.medium.radio"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:onClick="onClick"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="5dp"
+                    android:text="计算详情"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_color" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_myCodes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="#fff3f3f3"
+        android:orientation="vertical"
+        android:padding="10.0dip"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_mycodeTotal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="您参与了：正在加载中..."
+            android:textColor="#ff999999"
+            android:textSize="12.0sp" />
+
+        <TableLayout
+            android:id="@+id/layout_mycodeListWp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="15.0dip"
+        android:background="#ffdcdcdc" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="12.0dip"
+        android:background="#fff8f8f8" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#ffdcdcdc" />
+
+    <RelativeLayout
+        android:id="@+id/bt_layout_viewDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:clickable="true"
+        android:onClick="onClick">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图文详情"
+                android:textColor="#ff666666"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextView.small.gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:text="建议在wifi下查看" />
+
+        <ImageView
+            android:layout_width="7.0dip"
+            android:layout_height="11.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:src="@drawable/ic_more" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_alignParentBottom="true"
+            android:background="#ffdcdcdc" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bt_layout_joinDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:onClick="onClick">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_detail_joindetail"
+                android:textColor="#ff666666"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="7.0dip"
+            android:layout_height="11.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:src="@drawable/ic_more" />
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_alignParentBottom="true"
+            android:background="#ffdcdcdc" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bt_layout_winRecord"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:onClick="onClick">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_winrecord"
+                android:textColor="#ff666666"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="7.0dip"
+            android:layout_height="11.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:src="@drawable/ic_more" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_alignParentBottom="true"
+            android:background="#ffdcdcdc" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bt_layout_shareDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:onClick="onClick">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="晒单分享"
+                android:textColor="#ff666666"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="7.0dip"
+            android:layout_height="11.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:src="@drawable/ic_more" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="0.0dip"
+        android:background="#ffdcdcdc" />
+
+    <LinearLayout
+        android:id="@+id/layout_good_detail_lastwin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="上期获得者"
+                android:textColor="#ff666666"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffdcdcdc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150.0dip"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center_horizontal|top">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/good_detail_userimage"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/portrait"
+                    app:civ_border_color="@color/transparent"
+                    app:civ_border_width="2dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/good_detail_winnerName"
+                        style="@style/grayTextStyle"
+                        android:textColor="@color/deepskyblue"
+                        android:textSize="12sp"
+                        tools:text="获取人" />
+
+                    <TextView
+                        android:id="@+id/good_detail_winnerLocation"
+                        style="@style/grayTextStyle"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/text_gray"
+                        android:textSize="12sp"
+                        tools:text="(广东省广州市)" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/grayTextStyle"
+                        android:text="揭晓时间:"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/good_detail_announceDate"
+                        style="@style/grayTextStyle"
+                        android:layout_marginLeft="4dp"
+                        android:textSize="12sp"
+                        tools:text="announceDate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/grayTextStyle"
+                        android:text="购买时间:"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/good_detail_purDate"
+                        style="@style/grayTextStyle"
+                        android:layout_marginLeft="4dp"
+                        android:textSize="12sp"
+                        tools:text="announceDate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/grayTextStyle"
+                        android:text="幸运号码:"
+                        android:textColor="@color/text_primary"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/good_detail_finalRslt"
+                        style="@style/grayTextStyle"
+                        android:layout_marginLeft="4dp"
+                        android:textColor="@color/red"
+                        android:textSize="12sp"
+                        tools:text="announceDate" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffdcdcdc" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_empty"
+        style="@style/RecordEmptyTips"
+        android:text="--暂时还没有参与记录--"
+        android:visibility="gone" />
+
+</LinearLayout>

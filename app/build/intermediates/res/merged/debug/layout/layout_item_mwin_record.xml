@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffe0e0e0" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:orientation="vertical"
+            android:padding="10.0dip">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <com.shawnway.nav.app.yylg.view.CirclerImageView
+                    android:id="@id/image"
+                    android:layout_width="100.0dip"
+                    android:layout_height="75.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@drawable/img_blank" />
+
+                <LinearLayout
+                    android:id="@id/info"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_toRightOf="@id/image"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="姓名"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:textColor="#ff999999" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5.0dip"
+                            android:singleLine="true"
+                            android:text="幸运号码："
+                            android:textColor="#ff999999" />
+
+                        <TextView
+                            android:id="@id/luckycode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5.0dip"
+                            android:singleLine="true"
+                            android:text="幸运中奖号码：xxxxxx"
+                            android:textColor="@color/appcolor" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mwin_record_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/image"
+                    android:layout_below="@id/info">
+
+                    <TextView
+                        android:id="@id/statue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5.0dip"
+                        android:text="未发货"
+                        android:textColor="#ff999999" />
+
+                    <TextView
+                        android:id="@id/announcetime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/statue"
+                        android:singleLine="true"
+                        android:text="揭晓时间：xxxx-xx-xx"
+                        android:textColor="#ff999999" />
+
+                    <TextView
+                        tools:visibility="visible"
+                        android:id="@+id/isgrantgoods"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/announcetime"
+                        android:text="此商品为赠予"
+                        android:textSize="16sp"
+                        android:textColor="@color/lightskyblue"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        tools:visibility="visible"
+                        android:id="@id/towho"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/isgrantgoods"
+                        android:text="赠与者"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_gray"
+                        android:visibility="gone"/>
+
+                    <Button
+                        android:id="@id/button"
+                        style="@style/Button.main.medium"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="@dimen/page_boarder_margin" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <!--<LinearLayout
+                android:id="@id/status_wrapper"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:layout_marginBottom="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:background="#ffe0e0e0" />
+
+
+
+                <TextView
+                    android:id="@id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收货状态" />
+            </LinearLayout>-->
+        </LinearLayout>
+
+        <include layout="@layout/include_tab_icon_layout" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_marginBottom="10.0dip"
+            android:background="#ffe0e0e0" />
+    </RelativeLayout>
+</ScrollView>

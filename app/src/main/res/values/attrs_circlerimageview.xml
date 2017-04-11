@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CirclerImageView">
+        <!--设置是否缓存，默认缓存-->
+        <attr name="civShouldCache" format="boolean" />
+    </declare-styleable>
+</resources>

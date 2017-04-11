@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.shawnway.nav.app.yylg.view.TabButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_first"
+    style="@style/sub_tabbutton"
+ />
+

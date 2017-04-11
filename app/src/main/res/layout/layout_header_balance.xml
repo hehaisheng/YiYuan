@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:src="@drawable/ic_home_grid_door" />
+
+        <TextView
+            android:id="@id/tips"
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/icon"
+            android:background="@color/transparent"
+            android:text="@string/balance_has_balance" />
+
+        <TextView
+            android:id="@id/value"
+            style="@style/TextView.big.yellow"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tips"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/page_boarder_margin"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:background="@color/transparent"
+            android:text="100" />
+
+        <TextView
+            style="@style/TextView"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/value"
+            android:background="@color/transparent"
+            android:text="@string/balance_per_balance_value" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_color" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp">
+
+        <TextView
+            android:id="@id/tips"
+            style="@style/TextView.big.gray"
+            android:textSize="14sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:text="@string/record_column_one" />
+
+
+        <TextView
+            android:id="@id/tips"
+            style="@style/TextView.big.gray"
+            android:textSize="14sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:text="@string/record_column_two" />
+
+        <TextView
+            android:id="@id/tips"
+            style="@style/TextView.big.gray"
+            android:textSize="14sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginLeft="@dimen/page_boarder_margin"
+            android:text="@string/record_column_three" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/common_column_small_margin"
+        android:background="@color/divider_color" />
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/include_top_gray" />
+
+    <ScrollView
+        android:id="@+id/regist_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/regist_scroller_relative"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dip" >
+
+                <RelativeLayout
+                    android:id="@+id/regist_page_input_phone_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dip" >
+
+                    <EditText
+                        android:id="@+id/input_phone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/ic_phone"
+                        android:hint="@string/regist_input_hint_phone"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:singleLine="true" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/common_line" />
+                </RelativeLayout>
+                <!--
+
+                                <LinearLayout
+                                    android:id="@+id/regist_page_input_captcha_layout"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingTop="25dp"
+                                    android:layout_below="@id/regist_page_input_phone_layout">
+
+
+                                    <LinearLayout
+                                        android:id="@+id/captcha_inputer"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="3"
+                                        android:orientation="vertical" >
+
+                                        <EditText
+                                            android:id="@+id/input_captcha"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@null"
+                                            android:drawableLeft="@drawable/ic_captcha"
+                                            android:hint="@string/regist_input_hint_captcha"
+                                            android:maxLength="4"
+                                            android:inputType="text"
+                                            android:singleLine="true" />
+
+                                        <View
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="1.0px"
+                                            android:layout_gravity="bottom"
+                                            android:background="@color/common_line" />
+                                    </LinearLayout>
+
+                                    <com.shawnway.nav.app.renyigou.view.CirclerImageView
+                                        android:id="@id/captcha_img"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        app:civShouldCache="false"
+                                        android:clickable="true"
+                                        android:onClick="onClick"
+                                        android:scaleType="fitXY"
+                                        android:layout_weight="1"/>
+                                </LinearLayout>
+                -->
+
+                <Button
+                    android:id="@+id/retrieve_send"
+                    style="@style/Button.main.Border"
+                    android:layout_width="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20.0dp"
+                    android:layout_marginTop="15.0dp"
+                    android:onClick="onClick"
+                    android:text="@string/retrieve_btn_next"
+                    android:layout_below="@id/regist_page_input_phone_layout" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

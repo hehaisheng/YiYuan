@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="7%h"
+        android:background="@color/appcolor">
+        <ImageView
+            android:id="@+id/systeminfo_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/is_btn_back"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/systeminfo_list_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="系统消息"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="25dp"
+            />
+
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+    <ListView
+        android:id="@+id/systeminfo_list1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+       />
+
+
+
+
+
+
+</com.zhy.android.percent.support.PercentLinearLayout>

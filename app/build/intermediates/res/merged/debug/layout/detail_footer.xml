@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_footer_endwords"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80.0dip"
+        android:layout_marginTop="10.0dip"
+        android:gravity="center_horizontal"
+        android:text="@string/list_end"
+        android:textColor="@color/gray"
+        android:textSize="12.0sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/loading_inner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60.0dip"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/loading_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10.0dip"
+            android:text="@string/loading_more" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/up_load_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80.0dip"
+        android:layout_marginTop="10.0dip"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/up_load_more_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_up_gray"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/up_load_more_icon"
+            android:text="@string/good_detail_load"
+            android:textColor="@color/gray"
+            android:textSize="12.0sp" />
+    </RelativeLayout>
+
+</LinearLayout>

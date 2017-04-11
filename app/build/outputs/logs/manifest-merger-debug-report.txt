@@ -1,0 +1,517 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:2:1-184:12
+	package
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:4:5-40
+		INJECTED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:6:5-38
+		INJECTED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:5:5-29
+		INJECTED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:multidex:1.0.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.1.2] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\nativecrashreport\3.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.iwgang:countdownview:1.2] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.github.iwgang\countdownview\1.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:cardview-v7:23.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:23.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\palette-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [trunk:loading:unspecified] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\trunk\loading\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:percent-support-extends:1.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.zhy\percent-support-extends\1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [trunk.sweet-alert-dialog-master:library:unspecified] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\trunk.sweet-alert-dialog-master\library\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.7] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.baoyz.pullrefreshlayout\library\1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.jakewharton:butterknife:8.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\AndroidManifest.xml:19:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.lovedise:permissiongen:0.0.6] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.lovedise\permissiongen\0.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.1.3] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.github.CymChad\BaseRecyclerViewAdapterHelper\2.1.3\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:13:22-65
+permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:14:17-73
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:23:5-76
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:23:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:27:5-76
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:27:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:28:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:31:5-75
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:31:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:34:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:38:5-84
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:38:22-81
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:40:5-69
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:40:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:42:5-67
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:42:22-64
+uses-permission#android.permission.READ_SMS
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:43:5-67
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:43:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:44:5-70
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:44:22-67
+application
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:46:5-182:19
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:9:5-26:19
+MERGED from [com.android.support:cardview-v7:23.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:23.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\palette-v7\23.1.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.zhy:percent-support-extends:1.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.zhy\percent-support-extends\1.1.1\AndroidManifest.xml:11:5-14:19
+MERGED from [trunk.sweet-alert-dialog-master:library:unspecified] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\trunk.sweet-alert-dialog-master\library\unspecified\AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.7] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.7\AndroidManifest.xml:11:5-20
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.baoyz.pullrefreshlayout\library\1.2.0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.lovedise:permissiongen:0.0.6] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.lovedise\permissiongen\0.0.6\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.1.3] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.github.CymChad\BaseRecyclerViewAdapterHelper\2.1.3\AndroidManifest.xml:11:5-14:19
+	android:label
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:50:9-44
+		REJECTED from [com.zhy:percent-support-extends:1.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.zhy\percent-support-extends\1.1.1\AndroidManifest.xml:13:9-41
+		REJECTED from [com.lovedise:permissiongen:0.0.6] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.lovedise\permissiongen\0.0.6\AndroidManifest.xml:13:9-41
+		REJECTED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.1.3] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.github.CymChad\BaseRecyclerViewAdapterHelper\2.1.3\AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from [com.lovedise:permissiongen:0.0.6] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.lovedise\permissiongen\0.0.6\AndroidManifest.xml:14:9-35
+	android:uiOptions
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:52:9-53
+	android:allowBackup
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:48:9-36
+		REJECTED from [com.zhy:percent-support-extends:1.1.1] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.zhy\percent-support-extends\1.1.1\AndroidManifest.xml:12:9-35
+		REJECTED from [com.lovedise:permissiongen:0.0.6] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.lovedise\permissiongen\0.0.6\AndroidManifest.xml:12:9-35
+		REJECTED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.1.3] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.github.CymChad\BaseRecyclerViewAdapterHelper\2.1.3\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:49:9-44
+	android:theme
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:51:9-40
+	tools:replace
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:53:8-71
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:47:9-42
+service#com.baidu.location.f
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:55:9-62:19
+	android:enabled
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:57:13-35
+	android:process
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:58:13-38
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:56:13-48
+intent-filter#com.baidu.location.service_v2.2
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:59:13-61:29
+action#com.baidu.location.service_v2.2
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:60:17-81
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:60:25-71
+service#com.shawnway.nav.app.yylg.service.HeartService
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:64:9-57
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:64:18-54
+service#com.shawnway.nav.app.yylg.service.AutoLoginService
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:66:9-61
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:66:18-58
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:69:9-71:56
+	android:value
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:71:13-53
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:70:13-52
+activity#com.shawnway.nav.app.yylg.activity.MainActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:73:9-76:60
+	android:launchMode
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:75:13-44
+	android:theme
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:76:13-48
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:74:13-50
+activity#com.shawnway.nav.app.yylg.activity.WelcomPageActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:77:9-87:20
+	android:theme
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:79:13-52
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:78:13-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:82:13-86:29
+action#android.intent.action.MAIN
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:83:17-69
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:83:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:85:27-74
+activity#com.tencent.bugly.beta.ui.BetaActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:88:9-89:64
+	android:theme
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:89:13-61
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:88:19-72
+activity#com.shawnway.nav.app.yylg.activity.WebViewActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:90:9-62
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:90:19-59
+activity#com.shawnway.nav.app.yylg.activity.ServiceProtocolActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:91:9-70
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:91:19-67
+activity#com.shawnway.nav.app.yylg.activity.SelfPickActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:92:9-63
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:92:19-60
+activity#com.shawnway.nav.app.yylg.activity.AllCyclesActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:93:9-64
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:93:19-61
+activity#com.shawnway.nav.app.yylg.activity.OrderActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:94:9-60
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:94:19-57
+activity#com.shawnway.nav.app.yylg.activity.HelpGuideActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:95:9-64
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:95:19-61
+activity#com.shawnway.nav.app.yylg.activity.TenBlockActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:96:9-63
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:96:19-60
+activity#com.shawnway.nav.app.yylg.activity.RealBlockActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:97:9-64
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:97:19-61
+activity#com.shawnway.nav.app.yylg.activity.IntroCodeActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:98:9-64
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:98:19-61
+activity#com.shawnway.nav.app.yylg.activity.DetailActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:99:9-61
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:99:19-58
+activity#com.shawnway.nav.app.yylg.activity.UserActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:100:9-59
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:100:19-56
+activity#com.shawnway.nav.app.yylg.activity.RegistActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:101:9-61
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:101:19-58
+activity#com.shawnway.nav.app.yylg.activity.RegistCfmActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:102:9-64
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:102:19-61
+activity#com.shawnway.nav.app.yylg.activity.LoginActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:103:9-60
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:103:19-57
+activity#com.shawnway.nav.app.yylg.activity.CartActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:104:9-59
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:104:19-56
+activity#com.shawnway.nav.app.yylg.activity.ShareDetialActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:105:9-66
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:105:19-63
+activity#com.shawnway.nav.app.yylg.activity.GrantActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:106:9-60
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:106:19-57
+activity#com.shawnway.nav.app.yylg.activity.GrantCfmActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:107:9-63
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:107:19-60
+activity#com.shawnway.nav.app.yylg.activity.GrantRecordActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:108:9-66
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:108:19-63
+activity#com.shawnway.nav.app.yylg.activity.GoodListVerticalActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:109:9-71
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:109:19-68
+activity#com.shawnway.nav.app.yylg.activity.PayResultActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:110:9-64
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:110:19-61
+activity#com.shawnway.nav.app.yylg.activity.AddressActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:111:9-62
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:111:19-59
+activity#com.shawnway.nav.app.yylg.activity.MyCommissionActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:112:9-67
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:112:19-64
+activity#com.shawnway.nav.app.yylg.activity.RetrievePwdActvitity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:113:9-67
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:113:19-64
+activity#com.shawnway.nav.app.yylg.activity.MyPointActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:114:9-62
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:114:19-59
+activity#com.shawnway.nav.app.yylg.activity.AddressEditActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:115:9-66
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:115:19-63
+activity#com.shawnway.nav.app.yylg.activity.WinRecordActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:116:9-64
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:116:19-61
+activity#com.shawnway.nav.app.yylg.activity.ChooseEarnActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:117:9-65
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:117:19-62
+activity#com.shawnway.nav.app.yylg.activity.ChargeActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:118:9-61
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:118:19-58
+activity#com.shawnway.nav.app.yylg.activity.AddShareActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:119:9-63
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:119:19-60
+activity#com.shawnway.nav.app.yylg.activity.RetrievePwdCfmActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:120:9-69
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:120:19-66
+activity#com.shawnway.nav.app.yylg.activity.HelpCenterActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:121:9-65
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:121:19-62
+activity#com.shawnway.nav.app.yylg.activity.MissionActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:122:9-62
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:122:19-59
+activity#com.shawnway.nav.app.yylg.activity.MyShareActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:123:9-62
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:123:19-59
+activity#com.shawnway.nav.app.yylg.activity.CheckMyCodeActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:124:9-66
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:124:19-63
+activity#com.shawnway.nav.app.yylg.activity.JoinListActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:125:9-63
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:125:19-60
+activity#com.shawnway.nav.app.yylg.activity.CalDetailCountDownActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:126:9-73
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:126:19-70
+activity#com.shawnway.nav.app.yylg.activity.RealLstAnnounceActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:127:9-70
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:127:19-67
+activity#com.shawnway.nav.app.yylg.activity.BankCardChargeActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:128:9-69
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:128:19-66
+activity#com.shawnway.nav.app.yylg.activity.ShareActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:129:9-60
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:129:19-57
+activity#com.shawnway.nav.app.yylg.activity.CommentsActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:131:9-133:58
+	android:windowSoftInputMode
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:133:13-55
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:132:13-54
+activity#com.shawnway.nav.app.yylg.activity.LstAnnounceActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:134:9-66
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:134:19-63
+activity#com.shawnway.nav.app.yylg.activity.CalDetailActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:135:9-64
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:135:19-61
+activity#com.shawnway.nav.app.yylg.activity.ShareListActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:136:9-64
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:136:19-61
+activity#com.shawnway.nav.app.yylg.activity.PersonalDataActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:137:9-67
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:137:19-64
+activity#com.shawnway.nav.app.yylg.activity.AccountDetailsActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:138:9-69
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:138:19-66
+activity#com.shawnway.nav.app.yylg.activity.CashOutActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:139:9-62
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:139:19-59
+activity#com.shawnway.nav.app.yylg.activity.CashOutFormActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:140:9-66
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:140:19-63
+activity#com.shawnway.nav.app.yylg.activity.PhysicalActivity_pri
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:141:9-67
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:141:19-64
+activity#com.shawnway.nav.app.yylg.activity.CustomInfoActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:142:9-144:57
+	android:theme
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:144:13-45
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:143:13-56
+activity#com.shawnway.nav.app.yylg.activity.SelectCycActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:145:9-64
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:145:19-61
+activity#com.shawnway.nav.app.yylg.customer.activity.ImageSelectorActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:146:9-148:62
+	android:configChanges
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:148:13-59
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:147:13-68
+activity#com.shawnway.nav.app.yylg.wxapi.WXPayEntryActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:149:9-152:46
+	android:launchMode
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:152:13-43
+	android:exported
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:151:13-36
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:150:13-53
+activity#com.shawnway.nav.app.yylg.customer.activity.ImageSelectorPreViewActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:153:9-155:62
+	android:configChanges
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:155:13-59
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:154:13-75
+activity#com.shawnway.nav.app.yylg.activity.CodeListActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:156:9-63
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:156:19-60
+activity#com.shawnway.nav.app.yylg.mvp.user.user_buy_record.MyBuyRecordsActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:159:9-83
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:159:19-80
+activity#com.shawnway.nav.app.yylg.mvp.user.user_invite.explain.ExplainActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:161:9-82
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:161:19-79
+activity#com.shawnway.nav.app.yylg.mvp.user.user_winrecord.express.ExpressActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:163:9-85
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:163:19-82
+activity#com.shawnway.nav.app.yylg.mvp.user.user_winrecord.choos_earn.phone_recharge.PhoneRechargeActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:165:9-109
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:165:19-106
+activity#com.shawnway.nav.app.yylg.mvp.user.user_winrecord.choos_earn.withdraw_deposit.WithDrawDepositActivity
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:167:9-113
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:167:19-110
+receiver#net.sourceforge.simcpux.wxapi.AppRegister
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:169:9-173:20
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:169:19-75
+intent-filter#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:170:13-172:29
+action#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:171:17-100
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:171:25-97
+meta-data#com.google.android.gms.version
+ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:178:9-180:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:180:13-66
+	android:name
+		ADDED from D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\src\main\AndroidManifest.xml:179:13-58
+service#com.tencent.bugly.beta.tinker.TinkerResultService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:12:9-14:40
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:13:13-77
+service#com.tencent.tinker.lib.service.TinkerPatchService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:15:9-18:40
+	android:process
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:18:13-37
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:16:13-77
+service#com.tencent.tinker.lib.service.TinkerPatchService$InnerService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:19:9-22:40
+	android:process
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:22:13-37
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:20:13-90
+service#com.tencent.tinker.lib.service.DefaultTinkerResultService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.2.4.0] D:\yiyuan\leguo\Doc\code\YiYuango_Android_studio\trunk\app\build\intermediates\exploded-aar\com.tencent.bugly\crashreport_upgrade\1.2.4.0\AndroidManifest.xml:24:13-85

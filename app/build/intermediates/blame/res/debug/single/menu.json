@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_popup.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_popup.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_detail.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_detail.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_wxentry.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_wxentry.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_share_detail.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_share_detail.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_kind_list.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_kind_list.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_bonus_guide.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_bonus_guide.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_ship_address_edit.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_ship_address_edit.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_coupons_detail.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_coupons_detail.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cashier_order.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_cashier_order.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_user_center.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_user_center.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_edit.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_edit.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_search.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_search.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_win_detail.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_win_detail.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_share_list.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_share_list.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_ship_address_list.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_ship_address_list.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_qqentry.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_qqentry.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_weibo_pay_entry.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_weibo_pay_entry.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_share_for_detail.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_share_for_detail.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_wish_create.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_wish_create.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_add_share.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_add_share.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_web_view.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_web_view.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_weibo_entry.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_weibo_entry.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_pay_result.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_pay_result.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_profile_edit_header.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_profile_edit_header.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\search.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\search.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_duobao_bonus_exchange.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_duobao_bonus_exchange.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_duobao_record.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_duobao_record.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_duobao_goods_cala.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_duobao_goods_cala.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_charge_record.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\menu_charge_record.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\menu\\launch.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\menu\\launch.xml"
+    }
+]

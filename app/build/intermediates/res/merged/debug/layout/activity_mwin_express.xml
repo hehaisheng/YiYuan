@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_top_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/layout_mwin_express"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:layout_marginTop="22dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/normalTextStyle"
+                        android:text="派发时间：" />
+
+                    <TextView
+                        android:id="@+id/express_date"
+                        style="@style/normalTextStyle"
+                        android:layout_marginLeft="8dp"
+                        android:text="暂无信息"
+                        tools:text="2016-12-01 00:59" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                    <TextView
+                        style="@style/normalTextStyle"
+                        android:text="运单号码：" />
+
+                    <TextView
+                        android:id="@+id/express_orderId"
+                        style="@style/normalTextStyle"
+                        android:layout_marginLeft="8dp"
+                        android:text="暂无信息"
+                        tools:text="2016-12-01 00:59" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                    <TextView
+                        style="@style/normalTextStyle"
+                        android:text="物流公司：" />
+
+                    <TextView
+                        android:id="@+id/express_company"
+                        style="@style/normalTextStyle"
+                        android:layout_marginLeft="8dp"
+                        android:text="暂无信息"
+                        tools:text="百世物流" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                    <TextView
+                        style="@style/normalTextStyle"
+                        android:text="客服电话：" />
+
+                    <TextView
+                        android:id="@+id/express_customer_service"
+                        style="@style/normalTextStyle"
+                        android:layout_marginLeft="8dp"
+                        android:text="暂无信息"
+                        tools:text="4009565656" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/normalTextStyle"
+                        android:text="收货人：" />
+
+                    <TextView
+                        android:id="@+id/express_recevier"
+                        style="@style/normalTextStyle"
+                        android:layout_marginLeft="8dp"
+                        android:text="暂无信息"
+                        tools:text="韦新祖" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+
+                    <TextView
+                        style="@style/normalTextStyle"
+                        android:text="收货地址：" />
+
+                    <TextView
+                        android:id="@+id/express_recevier_address"
+                        style="@style/normalTextStyle"
+                        android:layout_marginLeft="8dp"
+                        android:text="暂无信息"
+                        tools:text="江西省萍乡市安源区000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="48dp"
+                    android:paddingRight="48dp">
+
+                    <Button
+                        android:id="@+id/express_ensure_receipt"
+                        style="@style/Button.main.Border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="确认收货" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/layout_not_express_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="查看物流信息失败"
+                android:textColor="@color/appcolor_deep"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

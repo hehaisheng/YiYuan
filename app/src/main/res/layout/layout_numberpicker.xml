@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/NumberPicker"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@id/minus"
+        style="@style/NumberPickerButton"
+        android:scaleType="center"
+        android:src="@drawable/ic_number_picker_minus" />
+
+    <TextView
+        android:layout_width="1.0px"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="-1.0px"
+        android:background="#ffcccccc" />
+
+    <EditText
+        android:id="@id/input"
+        style="@style/NumberPickerInput"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="6"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="1.0px"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="-1.0px"
+        android:background="#ffcccccc" />
+
+    <ImageButton
+        android:id="@id/plus"
+        style="@style/NumberPickerButton.Right"
+        android:scaleType="center"
+        android:src="@drawable/ic_number_picker_add" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_shape"
+    android:layout_width="300dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:clickable="true"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/dialog_charge_alinpay_title"
+        style="@style/text_18_ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:gravity="center"
+        android:text="@string/charge_alinpay_title"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/dialog_charge_alinpay_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.shawnway.nav.app.yylg.view.ClearEditView
+            android:id="@+id/dialog_charge_alinpay_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:hint="@string/charge_alinpay_name"/>
+
+        <com.shawnway.nav.app.yylg.view.ClearEditView
+            android:id="@+id/dialog_charge_alinpay_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/charge_alinpay_id"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60.0dip"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialog_charge_alinpay_ok"
+            style="@style/text_15_ffffff_sdw"
+            android:layout_width="114.0dip"
+            android:layout_height="40.0dip"
+            android:background="@drawable/btn_ok_selector"
+            android:gravity="center"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/dialog_charge_alinpay_cancel"
+            style="@style/text_15_ffffff_sdw"
+            android:layout_width="114.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:background="@drawable/btn_cancel_selector"
+            android:gravity="center"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

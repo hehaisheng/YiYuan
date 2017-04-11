@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/text"
+        android:layout_marginTop="@dimen/common_column_small_margin"
+        style="@style/TextView.small.gray"
+        android:layout_marginLeft="@dimen/page_boarder_margin"
+        android:layout_marginRight="@dimen/page_boarder_margin"
+        android:text="2015-12-07 22:10:03 002购买了1份" />
+
+    <!--<ListView
+        android:id="@+id/buyedcode_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>-->
+    <TextView
+        android:id="@id/text1"
+        style="@style/TextView.small"
+        android:layout_marginTop="@dimen/common_column_very_small_margin"
+        android:layout_marginBottom="@dimen/common_column_small_margin"
+        android:layout_marginLeft="@dimen/page_boarder_margin"
+        android:layout_marginRight="@dimen/page_boarder_margin"
+        android:gravity="fill_horizontal"
+        android:singleLine="false"
+        android:lineSpacingExtra="@dimen/common_column_very_small_margin"
+        android:text="xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx "
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_color"/>
+</LinearLayout>

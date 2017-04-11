@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/include_top_adjust_gray" />
+
+    <TextView
+        android:id="@id/tv_commission"
+        style="@style/OptionBar"
+        android:background="@drawable/btn_transparent_gray_noborder"
+        android:minHeight="30dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="@string/my_commission"
+        android:textColor="@drawable/textcolor_textview_gray"
+        android:textSize="@dimen/abc_text_size_very_small_material" />
+
+    <LinearLayout
+        style="@style/OptionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextView"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/lable_cashout" />
+
+        <com.shawnway.nav.app.yylg.view.ClearEditView
+            android:id="@id/inputer_amount"
+            style="@style/EditText"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:inputType="numberDecimal"
+            android:hint="@string/hint_enter_cashout" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/yuan" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/OptionBar"
+        android:background="@drawable/btn_transparent_gray_noborder"
+        android:minHeight="30dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="@string/cashout_tips"
+        android:textColor="@drawable/textcolor_textview_gray"
+        android:textSize="@dimen/abc_text_size_very_small_material" />
+
+    <TextView
+        style="@style/OptionBar"
+        android:text="@string/cashout_ways" />
+
+    <com.shawnway.nav.app.yylg.view.PayRadioGroup
+        android:id="@id/genderGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!--<com.shawnway.nav.app.yylg.view.PayRadioPurified
+            android:id="@id/pay_wechat"
+            style="@style/CheckBox.Bank"
+            android:tag="WECHAT"
+            my:prbLogo="@drawable/icon_wx_logo"
+            my:prbTitle="微信账号" />
+
+        <com.shawnway.nav.app.yylg.view.PayRadioPurified
+            android:id="@+id/pay_alipay"
+            style="@style/CheckBox.Bank"
+            android:tag="ALIPAY"
+            my:prbLogo="@drawable/ic_alipay_wap"
+            my:prbTitle="支付宝账号" />-->
+
+        <com.shawnway.nav.app.yylg.view.PayRadioPurified
+            android:id="@+id/pay_allbank"
+            style="@style/CheckBox.Bank"
+            android:tag="ALLBANK"
+            my:checked="true"
+            my:prbLogo="@drawable/ic_uppay_plugin"
+            my:prbTitle="银行账号" />
+
+    </com.shawnway.nav.app.yylg.view.PayRadioGroup>
+
+    <Button
+        android:id="@id/btn_next"
+        style="@style/Button.main.deep"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:minWidth="200dp"
+        android:onClick="onClick"
+        android:text="@string/next" />
+</LinearLayout>

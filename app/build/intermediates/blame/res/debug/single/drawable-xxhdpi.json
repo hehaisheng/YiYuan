@@ -1,0 +1,1006 @@
+[
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_present_dlg.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_present_dlg.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_share_wx.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_share_wx.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_total_down.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_total_down.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_psbc.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_psbc.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_index_tab_ten.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_index_tab_ten.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_grid_helpcenter.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_grid_helpcenter.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_index_tab_share.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_index_tab_share.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\arrow_down.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\arrow_down.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_dialog_promot_close.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_dialog_promot_close.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_search.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_cib.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_cib.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_checkbox_checked.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_checkbox_checked.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_good_detail_wrong_winner.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_good_detail_wrong_winner.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_balancepoint.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_balancepoint.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_bonus_selected.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_bonus_selected.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_detail_share.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_detail_share.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_ic_refrashbar_cancel_press.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_ic_refrashbar_cancel_press.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\popup_menu_bg.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\popup_menu_bg.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\progressbar02.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\progressbar02.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tab_allgood.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\tab_allgood.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pwd_selected.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_pwd_selected.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\fail_load.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\fail_load.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bg_flax.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bg_flax.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_red_new_function.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_red_new_function.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logo.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\sel.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\sel.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_detail_history.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_detail_history.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_avatar_default.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_avatar_default.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_bonus_overdue.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_bonus_overdue.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_grid_ten.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_grid_ten.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_swipe_arrow.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_swipe_arrow.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_close.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\icon_close.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\num_2.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\num_2.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_personaldata.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_personaldata.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_help_cr.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_help_cr.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pay_failed.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_pay_failed.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_menu_overflow_withnew.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_overflow_withnew.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\share_arrow.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\share_arrow.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\comments.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\comments.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_help_phone.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_help_phone.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_apptitle.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_apptitle.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_limit_text.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_limit_text.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_hxb.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_hxb.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_gray.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_gray.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_selected.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_selected.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_radio_unchecked_disabled.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_radio_unchecked_disabled.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_win_detail_dash_line.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_win_detail_dash_line.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_ccb.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_ccb.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_asy.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_asy.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_radio_checked_disabled.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_radio_checked_disabled.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pwd.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_pwd.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bg_flax_bottom.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bg_flax_bottom.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_accountdetail.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_accountdetail.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bg_dash_line.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bg_dash_line.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_present_item.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_present_item.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_medal.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_medal.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_search_white.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_search_white.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_loading_wrapper_white.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_loading_wrapper_white.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tab_cart_fat_clicked.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\tab_cart_fat_clicked.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_grid_door.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_grid_door.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\img_progress_short_color.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\img_progress_short_color.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_win.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_win.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_address_edit.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_address_edit.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_ship.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_ship.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arr_up.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arr_up.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_text_indicator.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_text_indicator.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bg_detail_winner.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bg_detail_winner.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\yy_appicon.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\yy_appicon.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\img_blank.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\img_blank.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_share.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_share.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_grid_real.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_grid_real.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_setting_white.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_setting_white.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_edittext_clear.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_edittext_clear.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_present.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_present.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_shipp_address_selected.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_shipp_address_selected.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\per.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\per.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_black.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_black.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_win_detail_address.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_win_detail_address.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_white.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_white.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arr_up_gray.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arr_up_gray.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\img_progress_gray.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\img_progress_gray.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_dbjl.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_dbjl.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_friends.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_friends.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arr_down_gray.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arr_down_gray.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_default_check_s.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_default_check_s.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\progressbar01.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\progressbar01.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_help_reg.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_help_reg.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\img_progress_short_gray.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\img_progress_short_gray.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo_white.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_logo_white.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\like.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\like.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_zjjl.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_zjjl.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\num_1.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\num_1.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_pab.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_pab.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_phone_selected.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_phone_selected.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_radio_checked.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_radio_checked.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cart_notice_more.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_cart_notice_more.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_down_gray.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_down_gray.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_notification_white.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_notification_white.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arr_down.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arr_down.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_cmb.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_cmb.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_wzfdd.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_wzfdd.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_asv.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_asv.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_checkbox_checked_disabled.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_checkbox_checked_disabled.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_win_selected.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_win_selected.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_title_newest.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\icon_title_newest.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_more.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_more.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_icbc.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_icbc.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_bonus_empty.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_bonus_empty.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_detail_listall.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_detail_listall.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_spdb.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_spdb.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bg_add_pic.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bg_add_pic.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_selector_indicator.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_selector_indicator.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_emptycart.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_emptycart.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_grant.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_grant.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\edit_delete.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\edit_delete.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_refresh_gray.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_refresh_gray.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\portrait.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\portrait.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_login_verify.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_login_verify.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_up_color.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_up_color.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\com.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\layout_slide_show_def.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\layout_slide_show_def.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_top_cart.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_top_cart.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_grid_recommand.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_grid_recommand.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_wdhb.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_wdhb.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_total_up.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_total_up.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_btn_unselected.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_btn_unselected.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_kind_all.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_kind_all.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_adress.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_adress.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_checkbox_unchecked_disabled.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_checkbox_unchecked_disabled.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\num_3.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\num_3.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_share.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_share.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_dollar.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_dollar.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_bc.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_bc.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_revealing.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_revealing.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_total_disable.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_total_disable.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_blank_duobao_record.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_blank_duobao_record.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_loading_inner_white.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_loading_inner_white.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_address_select.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_address_select.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tab_latancounce_clicked.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\tab_latancounce_clicked.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_share_selected.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_share_selected.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_captcha_selected.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_captcha_selected.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_clear_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\need_fix.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\need_fix.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ofm_add_icon.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ofm_add_icon.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_commision.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_commision.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_captcha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_captcha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\user_top_bg.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\user_top_bg.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_radio_unchecked.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_radio_unchecked.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_multi.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_multi.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\progressbar03.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\progressbar03.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_wdsd.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_wdsd.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_loading_inner.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_loading_inner.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_default_check.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_default_check.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_shoppinglist.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_shoppinglist.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_imgbg.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_imgbg.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\menu_ten_con.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\menu_ten_con.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_white_new_function.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_white_new_function.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_ic_menu_back.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_ic_menu_back.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_notice_more.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_notice_more.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_checkbox_unchecked.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_checkbox_unchecked.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_mor.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_mor.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_cmbc.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_cmbc.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cart.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_cart.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_gooddetail_close_button.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_gooddetail_close_button.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_radius_checkbox.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_radius_checkbox.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_wish.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_wish.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ear.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ear.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_menu_white.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_white.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_gray.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_gray.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cart_gray.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_cart_gray.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_list_focused_holo.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_login_pwd.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_login_pwd.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_revealing2.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_revealing2.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_login_user.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_login_user.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_number_picker_minus.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_number_picker_minus.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_abc.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_abc.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_find.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_find.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_up_gray.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_up_gray.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_detail_info.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_detail_info.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_menu_overflow.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_overflow.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_radius_checkbox_checked.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_radius_checkbox_checked.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_refresh_white.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_refresh_white.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_number_picker_add.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_number_picker_add.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bank_ceb.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\bank_ceb.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_share_real.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_share_real.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tab_latancounce.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\tab_latancounce.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_share_wxc.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_share_wxc.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user_czjl.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user_czjl.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\dot_blur.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\dot_blur.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_down_color.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_down_color.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_index_tab_kind.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_index_tab_kind.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_btn_back.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_btn_back.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\appicon.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\appicon.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_phone.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_phone.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\img_progress_color.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\img_progress_color.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\dot_focus.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\dot_focus.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_user.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tab_cart_fat.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\tab_cart_fat.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_detail_winnerhr.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_detail_winnerhr.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_help_tech.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_help_tech.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_default_error.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_default_error.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_loading_wrapper.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_loading_wrapper.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\num_4.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\num_4.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_winner_mark.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_winner_mark.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\notification_bell.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\notification_bell.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_selected.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_selected.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\is_btn_selected.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\is_btn_selected.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_full_open_on_phone.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-xxhdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_add_black.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_black.png"
+    }
+]

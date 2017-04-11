@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabButton">
+        <!--初始显示的图标-->
+        <attr name="image" format="reference" />
+        <!--选中之后显示的图标-->
+        <attr name="clickimage" format="reference" />
+        <!--选中之后显示的颜色-->
+        <attr name="clickcolor" format="color" />
+        <!--图标下显示的文字，不要太长！-->
+        <attr name="text" format="string" />
+        <!--文字的大小-->
+        <attr name="text_size" format="dimension" />
+        <attr name="underline" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MySlideShowView">
+        <attr name="mssvFocus" format="reference"/>
+        <attr name="mssvBlur" format="reference"/>
+        <attr name="mssvMask" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyTabsContainer">
+        <!--初始显示的图标-->
+        <attr name="images" format="reference" />
+        <!--选中之后显示的图标-->
+        <attr name="clicked_images" format="reference" />
+        <!--选中之后显示的颜色-->
+        <attr name="click_color" format="color" />
+        <!--图标下显示的文字，不要太长！-->
+        <attr name="texts" format="reference" />
+        <!--文字的大小-->
+        <attr name="text_sizes" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="TextViewPlus">
+        <attr name="left_height" format="dimension" />
+        <attr name="left_width" format="dimension" />
+        <attr name="right_height" format="dimension" />
+        <attr name="right_width" format="dimension" />
+        <attr name="top_height" format="dimension" />
+        <attr name="top_width" format="dimension" />
+        <attr name="bottom_height" format="dimension" />
+        <attr name="bottom_width" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="float" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="selectedTabTextColor" format="color" />
+        <attr name="textcolor" format="color" />
+    </declare-styleable>
+    <attr name="progressBarStyleLarge" format="reference" />
+    <attr name="drawerArrowStyle" format="reference" />
+    <attr name="height" format="dimension" />
+    <attr name="isLightTheme" format="boolean" />
+
+
+
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+    <attr name="border_overlay" format="boolean" />
+
+    <attr name="yy_padding_top" format="dimension" />
+    <attr name="yy_padding_bottom" format="dimension" />
+    <attr name="ListEmptyMsg" format="string" />
+    <attr name="ntes_mail_slider_height" format="dimension" />
+    <attr name="ntes_mail_slider_indicator_margin_bottom" format="dimension" />
+    <attr name="ntes_mail_slider_indicator_margin_right" format="dimension" />
+    <attr name="ntes_mail_slider_indicator_width" format="dimension" />
+    <attr name="ntes_mail_slider_indicator_height" format="dimension" />
+    <attr name="ntes_mail_slider_indicator_selected" format="reference" />
+    <attr name="ntes_mail_slider_indicator_normal" format="reference" />
+
+    <attr name="shape">
+        <enum name="oval" value="0" />
+        <enum name="rect" value="1" />
+    </attr>
+    <attr name="selected_color" format="color" />
+    <attr name="unselected_color" format="color" />
+    <attr name="selected_drawable" format="reference" />
+    <attr name="unselected_drawable" format="reference" />
+    <attr name="selected_width" format="dimension" />
+    <attr name="selected_height" format="dimension" />
+    <attr name="unselected_width" format="dimension" />
+    <attr name="unselected_height" format="dimension" />
+    <attr name="padding_left" format="dimension" />
+    <attr name="padding_right" format="dimension" />
+    <attr name="padding_top" format="dimension" />
+    <attr name="padding_bottom" format="dimension" />
+    <attr name="selected_padding_left" format="dimension" />
+    <attr name="selected_padding_right" format="dimension" />
+    <attr name="selected_padding_top" format="dimension" />
+    <attr name="selected_padding_bottom" format="dimension" />
+    <attr name="unselected_padding_left" format="dimension" />
+    <attr name="unselected_padding_right" format="dimension" />
+    <attr name="unselected_padding_top" format="dimension" />
+    <attr name="unselected_padding_bottom" format="dimension" />
+    <attr name="roundColor" format="color" />
+    <attr name="roundProgressColor" format="color" />
+    <attr name="roundWidth" format="dimension" />
+    <attr name="textColor" format="color" />
+    <attr name="textSize" format="dimension" />
+    <attr name="max" format="integer" />
+    <attr name="textIsDisplayable" format="boolean" />
+    <attr name="style">
+        <enum name="FILL" value="1" />
+        <enum name="STROKE" value="0" />
+    </attr>
+    <attr name="hasStatus" format="boolean" />
+
+    <attr name="orientation">
+        <!-- Defines an horizontal widget. -->
+        <enum name="horizontal" value="0" />
+        <!-- Defines a vertical widget. -->
+        <enum name="vertical" value="1" />
+    </attr>
+
+    <declare-styleable name="PayRidioGroup">
+        <!-- The id of the child radio button that should be checked by default
+             within this radio group. -->
+        <attr name="checkedButton" format="integer" />
+        <!-- Should the radio group be a column or a row?  Use "horizontal"
+             for a row, "vertical" for a column.  The default is
+             vertical. -->
+        <attr name="orientation" />
+    </declare-styleable>
+    <declare-styleable name="PayRidioButton">
+        <attr name="prbTitle" format="reference|string" />
+        <attr name="prbLogo" format="reference|color" />
+        <attr name="desc" format="reference|string" />
+        <attr name="checked" format="boolean" />
+        <attr name="radio" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="Bank">
+        <attr name="bankStyle">
+            <enum name="simpleMode" value="0" />
+            <enum name="richMode" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MissionItemView">
+        <attr name="mivImage" format="reference"/>
+        <attr name="mivTitle" format="reference|string"/>
+        <attr name="mivReward" format="reference|string"/>
+        <attr name="mivDesc" format="reference|string"/>
+        <attr name="mivSta">
+            <enum name="uncomplete" value="0"/>
+            <enum name="unclaim" value="1"/>
+            <enum name="complete" value="2"/>
+            <enum name="unsign" value="3"/>
+            <enum name="signed" value="4"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

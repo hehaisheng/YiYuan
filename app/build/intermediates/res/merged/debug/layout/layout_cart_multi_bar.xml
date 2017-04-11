@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/wraper_delete_cart"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/index_tab_height"
+    android:background="@drawable/tab_border" >
+
+    <ImageButton
+        android:id="@id/cart_multi_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/select_all"
+        android:padding="10.0dip"
+        android:src="@drawable/ic_radius_checkbox" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/cart_multi_checkbox"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/tv_selectall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_all" />
+
+        <TextView
+            android:id="@id/cart_multi_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cart_multi_summary"
+            android:textColor="@color/dark_gray" />
+    </LinearLayout>
+
+    <Button
+        android:id="@id/cart_multi_del_btn"
+        style="@style/Button.main.Border"
+        android:layout_width="98.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:minHeight="36.0dip"
+        android:text="@string/delete" />
+
+</RelativeLayout>

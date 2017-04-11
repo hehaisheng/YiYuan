@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/layout_calculate_type2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appcolor"
+    android:paddingLeft="@dimen/page_boarder_margin"
+    android:paddingRight="@dimen/page_boarder_margin"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <TextView
+        style="@style/TextView.small.white"
+        android:id="@id/statement"
+        android:gravity="left"
+        android:layout_marginTop="@dimen/common_column_small_margin"
+        android:layout_marginBottom="@dimen/common_column_small_margin"
+        android:lineSpacingExtra="@dimen/common_column_small_margin"
+        android:textColorLink="@color/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/caldet_normal_2"
+        />
+
+</LinearLayout>

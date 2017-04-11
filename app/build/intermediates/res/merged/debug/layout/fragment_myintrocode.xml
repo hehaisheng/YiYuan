@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/layout_modify_pwd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/tv_old_pwd"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:padding="@dimen/page_boarder_margin">
+
+    <RelativeLayout
+        android:id="@id/layout_invitation_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/lable_myintrode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/introcode_label_mine"
+            android:textColor="#88000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@id/tv_myintrocode"
+            style="@style/TextView.yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/lable_myintrode"
+            android:clickable="true"
+            android:gravity="left"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/fragment_myintrocode_btn_send"
+            style="@style/Button.main.smaller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="3dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingTop="3dp"
+            android:text="发送" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/invita_prompt_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="成功邀请好友，获 "
+                android:textColor="#88000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/invita_prompt"
+                style="@style/TextView.yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3%"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 的佣金"
+                android:textColor="#88000000"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/fragment_myintrocode_btn_explain"
+            style="@style/Button.main.smaller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_main_blue_rectangle"
+            android:paddingBottom="3dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingTop="3dp"
+            android:text="说明" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/layout_invitator_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invita_prompt_wrapper"
+        android:layout_marginTop="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@id/lable_invitator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/register_introcode"
+            android:textColor="#88000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@id/tv_invitator"
+            style="@style/TextView.yellow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=""
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <ImageView
+            android:id="@+id/iv_invite_qrcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_save_qrcode"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="点我保存二维码"
+        android:textSize="10sp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <!--<LinearLayout
+        android:id="@id/layout_introinput_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_old_pwd_wrapper"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            >
+
+            <TextView
+                android:id="@id/tv_introcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/register_introcode" />
+
+            <EditText
+                android:id="@id/inputer_introcode"
+                style="@style/EditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tv_introcode"
+                android:hint="@string/hint_introcode" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@id/submit"
+            style="@style/Button.main"
+            android:layout_below="@id/layout_introinput_wrapper"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:minWidth="@dimen/bt_min_width"
+            android:text="@string/submit"/>
+    </LinearLayout>-->
+
+
+</LinearLayout>

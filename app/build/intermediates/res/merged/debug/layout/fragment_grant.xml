@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/page_boarder_margin"
+    android:paddingRight="@dimen/page_boarder_margin"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <EditText
+            android:id="@id/inputer_payee"
+            style="@style/EditText"
+            android:textSize="14sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dip"
+            android:layout_weight="3"
+            android:inputType="number"
+            android:maxLength="11"
+            android:hint="@string/hint_payee" />
+
+        <Button
+            android:id="@id/submit"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/donate_dlg_cfm_btn" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_granthistory"
+        style="@style/TextView.big"
+        android:textColor="@color/good_detail_swipe_text_color"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:text="@string/grant_label_history" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/column_header_color"
+        android:paddingBottom="@dimen/page_boarder_margin"
+        android:paddingTop="@dimen/page_boarder_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="赠与时间"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="被赠与者"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="赠与金额"/>
+
+    </LinearLayout>
+
+    <com.shawnway.nav.app.yylg.view.MyRecyclerView
+        android:id="@id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+</LinearLayout>

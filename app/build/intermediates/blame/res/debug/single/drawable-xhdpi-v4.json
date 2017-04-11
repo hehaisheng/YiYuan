@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\failure.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\trunk\\loading\\unspecified\\res\\drawable-xhdpi-v4\\failure.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\textcolor_textview_yellow.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\textcolor_textview_yellow.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_row_selected.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\list_row_selected.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\radio.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\radio.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_border.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\bg_border.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_border_pressed.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\bg_border_pressed.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\textcolor_textview_gray.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\textcolor_textview_gray.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\textcolor_textview_black.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\textcolor_textview_black.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\success.png",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\exploded-aar\\trunk\\loading\\unspecified\\res\\drawable-xhdpi-v4\\success.png"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_progressbar_layer.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\abc_progressbar_layer.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_item_unselected.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\list_item_unselected.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_row_selector.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\list_row_selector.xml"
+    },
+    {
+        "merged": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_border_selector.xml",
+        "source": "D:\\yiyuan\\leguo\\Doc\\code\\YiYuango_Android_studio\\trunk\\app\\src\\main\\res\\drawable-xhdpi\\bg_border_selector.xml"
+    }
+]

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/page_boarder_margin"
+        android:paddingTop="@dimen/page_boarder_margin">
+
+        <TextView
+            android:id="@id/time"
+            android:textSize="12sp"
+            android:textColor="@color/good_detail_swipe_text_color"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/chargerec_col_one_weight"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="2015-12-12 10:11:23.123" />
+
+        <TextView
+            android:id="@id/way"
+            android:textColor="@color/good_detail_swipe_text_color"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="@integer/chargerec_col_two_weight"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="12sp"
+            android:text="1234 工行" />
+
+        <TextView
+            android:id="@id/amount"
+            android:textColor="@color/good_detail_swipe_text_color"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="@integer/chargerec_col_three_weight"
+            android:gravity="right"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:text="￥0.00" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider_color" />
+</LinearLayout>

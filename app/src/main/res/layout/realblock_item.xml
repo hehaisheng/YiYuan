@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="68dp">
+
+    <com.shawnway.nav.app.yylg.view.CirclerImageView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/realblock_img"
+        android:layout_width="60dp"
+        android:layout_height="61.2dp"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="15.0dip"
+        android:layout_centerVertical="true"
+        android:src="@drawable/img_blank" />
+
+    <RelativeLayout
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="61.2dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_toRightOf="@id/realblock_img">
+
+        <TextView
+            android:id="@+id/realblock_item_tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="3.0dip"
+            android:textColor="#ff666666"
+            android:textSize="13.0sp"
+            android:maxLines="2"
+            android:text="Dior 迪奥 真我  淡香氛 香水"/>
+
+        <RelativeLayout
+            android:layout_below="@id/realblock_item_tvName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/realblock_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/realblock_item_pro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="开奖进度:"
+                        android:singleLine="true"
+                        android:textColor="#ff999999"
+                        android:textSize="12.0sp" />
+                    <TextView
+                        android:id="@+id/realblock_tvprogress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50%"
+                        android:textSize="12.0sp"
+                        android:textColor="#ffd56c"/>
+                </LinearLayout>
+
+
+            <ProgressBar
+                android:id="@+id/realblock_item_progressbar"
+                android:layout_width="145dp"
+                android:layout_height="@dimen/rect_goods_progress_height"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/realblock_item_pro"
+                android:layout_marginTop="1.0dip"
+                android:progressDrawable="@drawable/abc_progressbar_layer"
+                android:max="100"
+                android:indeterminateOnly="false"
+                style="?android:attr/progressBarStyleHorizontal"
+                />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/goods_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                >
+                <ImageButton
+                    style="@null"
+                    android:id="@+id/goods_add_cart"
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:padding="0.0dip"
+                    android:src="@drawable/ic_cart"
+                    android:singleLine="true"
+                    android:textSize="9.0dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:paddingTop="6dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider_color" />
+
+</RelativeLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/goods_bg"
+    android:clickable="true">
+
+    <FrameLayout
+        android:id="@+id/goods_img_wrapper"
+        android:layout_margin="10dip"
+        android:layout_width="100dip"
+        android:layout_height="100dip">
+
+        <com.shawnway.nav.app.yylg.view.CirclerImageView
+            android:id="@id/goods_img"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/img_blank" />
+
+        <RelativeLayout
+            android:id="@id/buy_record_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@id/label_announced"
+                style="@style/TextView.label"
+                android:background="#44000000"
+                android:text="@string/announced"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@id/label_onprogress"
+                style="@style/TextView.label"
+                android:background="#44ff0000"
+                android:text="@string/onprogress"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@id/goods_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="25.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_toRightOf="@id/goods_img_wrapper"
+        android:ellipsize="end"
+        android:lineSpacingExtra="3.0dip"
+        android:maxLines="2"
+        android:text="(第186期)iPhone6 4.7英寸苹果新品7英寸苹果新品7英寸苹果新品7英寸苹果新品7英寸苹果新品7英寸苹果新品7英寸苹果新品，万众瞩目"
+        android:textColor="#ff666666"
+        android:textSize="13.0sp" />
+
+    <RelativeLayout
+        android:id="@id/wraper_good_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/goods_name"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_toRightOf="@id/goods_img_wrapper"
+        android:paddingBottom="8dip"
+        android:visibility="gone">
+
+
+        <ProgressBar
+            android:id="@id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/rect_goods_progress_height"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:indeterminateOnly="false"
+            android:max="1000"
+            android:progressDrawable="@drawable/abc_progressbar_layer" />
+
+        <RelativeLayout
+            android:id="@id/progress_data_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progressbar">
+
+            <TextView
+                android:id="@id/tv_joined"
+                style="@style/TextView.tiny"
+                android:text="202"
+                android:textColor="@color/appcolor" />
+
+            <TextView
+                android:id="@id/tv_total"
+                style="@style/TextView.tiny"
+                android:layout_centerHorizontal="true"
+                android:text="2002"
+                android:textColor="@color/appcolor_gray" />
+
+            <TextView
+                android:id="@id/tv_left"
+                style="@style/TextView.tiny"
+                android:layout_alignParentRight="true"
+                android:text="2002"
+                android:textColor="@color/appcolor_left" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/progress_data_label_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/progress_data_wrapper"
+            android:layout_marginBottom="8.0dip">
+
+            <TextView
+                style="@style/TextView.tiny"
+                android:text="@string/joined"
+                android:textColor="@color/appcolor_gray" />
+
+            <TextView
+                style="@style/TextView.tiny"
+                android:layout_centerHorizontal="true"
+                android:text="@string/total"
+                android:textColor="@color/appcolor_gray" />
+
+            <TextView
+                style="@style/TextView.tiny"
+                android:layout_alignParentRight="true"
+                android:text="@string/left"
+                android:textColor="@color/appcolor_gray" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/wraper_good_detail_announced"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/goods_name"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/goods_img_wrapper"
+        android:paddingBottom="8dip"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@id/label_winner"
+            style="@style/TextView.gray"
+            android:text="@string/winer" />
+
+        <TextView
+            android:id="@id/winner"
+            style="@style/TextView.link"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/label_code"
+            android:text="***" />
+
+        <TextView
+            android:id="@id/label_code"
+            style="@style/TextView.gray"
+            android:layout_below="@id/label_winner"
+            android:text="@string/luckynumber" />
+
+        <TextView
+            android:id="@id/luckycode"
+            style="@style/TextView.highlight"
+            android:layout_below="@id/label_winner"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/label_code"
+            android:text="*********" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/goods_img_wrapper"
+        android:layout_marginTop="10dip"
+        android:background="#ffdcdcdc" />
+
+    <include layout="@layout/include_tab_icon_layout" />
+</RelativeLayout>

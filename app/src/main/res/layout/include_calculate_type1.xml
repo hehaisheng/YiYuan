@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/layout_calculate_type1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/page_boarder_margin"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <RelativeLayout style="@style/OptionBar">
+
+        <TextView
+            android:id="@+id/lb_calculate"
+            style="@style/TextView"
+            android:text="@string/lb_calculate" />
+
+        <LinearLayout
+            android:id="@+id/ll_calformula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lb_calculate"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextView.medium"
+                android:background="@color/deepskyblue"
+                android:padding="5dp"
+                android:text="@string/luckynumber2"
+                android:textSize="14sp"
+                android:textColor="@color/white" />
+
+            <TextView
+                style="@style/TextView.medium"
+                android:textSize="14sp"
+                android:text="=(数值" />
+
+            <TextView
+                android:id="@+id/a"
+                style="@style/TextView.highlight"
+                android:text="A"
+                android:textSize="14sp" />
+
+            <TextView
+                style="@style/TextView.medium"
+                android:textSize="14sp"
+                android:text="+数值" />
+
+            <TextView
+                style="@style/TextView.highlight"
+                android:text="B"
+                android:textSize="14sp" />
+
+            <TextView
+                style="@style/TextView.medium"
+                android:textSize="14sp"
+                android:text=")%参与人次" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:layout_below="@id/ll_calformula"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextView.medium"
+                android:textSize="14sp"
+                android:text="+" />
+
+            <TextView
+                style="@style/TextView.medium"
+                android:text="10000001"
+                android:textSize="14sp"
+                android:textColor="@color/deepskyblue" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/OptionBar"
+        android:layout_marginTop="@dimen/page_boarder_margin">
+
+        <TextView
+            android:id="@+id/lb1"
+            style="@style/TextView.medium"
+            android:text="数值" />
+
+        <TextView
+            android:id="@+id/lb2"
+            style="@style/TextView.highlight"
+            android:layout_toRightOf="@id/lb1"
+            android:text="A"
+            android:textSize="@dimen/text_medium" />
+
+        <TextView
+            android:id="@+id/lb3"
+            style="@style/TextView.medium"
+            android:layout_toRightOf="@id/lb2"
+            android:text="=" />
+
+        <TextView
+            android:id="@+id/lb4"
+            style="@style/TextView.medium"
+            android:layout_marginBottom="@dimen/page_boarder_margin"
+            android:layout_toRightOf="@id/lb3"
+            android:gravity="left"
+            android:text="取该商品最后购买时间前网站所有商品的最后100条购买记录" />
+
+        <TextView
+            android:id="@+id/lb5"
+            style="@style/TextView.medium"
+            android:layout_below="@id/lb4"
+            android:layout_toRightOf="@id/lb2"
+            android:text="=" />
+
+        <TextView
+            android:id="@+id/calculate_A"
+            style="@style/TextView.highlight"
+            android:layout_alignBottom="@id/lb5"
+            android:layout_toRightOf="@id/lb5"
+            android:text="***********"
+            android:textSize="@dimen/text_medium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/OptionBar"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:id="@+id/lb6"
+            style="@style/TextView.medium"
+            android:text="数值" />
+
+        <TextView
+            android:id="@+id/lb7"
+            style="@style/TextView.highlight"
+            android:layout_toRightOf="@id/lb6"
+            android:text="B"
+            android:textSize="@dimen/text_medium" />
+
+        <TextView
+            android:id="@+id/lb8"
+            style="@style/TextView.medium"
+            android:layout_toRightOf="@id/lb7"
+            android:text="=" />
+
+        <TextView
+            android:id="@+id/lb9"
+            style="@style/TextView.medium"
+            android:layout_marginBottom="@dimen/page_boarder_margin"
+            android:layout_toRightOf="@id/lb8"
+            android:gravity="left"
+            android:text="时时彩结果" />
+
+        <TextView
+            android:id="@+id/lb10"
+            style="@style/TextView.medium"
+            android:layout_below="@id/lb9"
+            android:layout_toRightOf="@id/lb7"
+            android:text="=" />
+
+        <TextView
+            android:id="@+id/calculate_B"
+            style="@style/TextView.highlight"
+            android:layout_below="@id/lb9"
+            android:layout_toRightOf="@id/lb10"
+            android:gravity="left"
+            android:text="***********"
+            android:textSize="@dimen/text_medium" />
+
+        <TextView
+            android:id="@+id/calculate_B_cycle"
+            style="@style/TextView.highlight"
+            android:layout_below="@id/calculate_B"
+            android:layout_toRightOf="@id/lb10"
+            android:gravity="left"
+            android:text="@string/calculating_cycle"
+            android:textSize="@dimen/text_medium" />
+
+        <RelativeLayout
+            android:layout_toRightOf="@id/lb9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/bt_gothirdpart2"
+                style="@style/TextView.link"
+                android:textSize="13sp"
+                android:text="开奖查询"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/calculate_joint_wrapper"
+        style="@style/OptionBar"
+        android:layout_marginTop="@dimen/page_boarder_margin">
+
+        <TextView
+            android:id="@+id/lb11"
+            style="@style/TextView.medium"
+            android:text="参与人数=" />
+
+
+        <TextView
+            android:id="@+id/calculate_joint"
+            style="@style/TextView.highlight"
+            android:layout_toRightOf="@id/lb11"
+            android:gravity="left"
+            android:text="100"
+            android:textSize="@dimen/text_medium" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/OptionBar"
+        android:layout_marginTop="@dimen/page_boarder_margin">
+
+        <TextView
+            android:id="@+id/lb12"
+            style="@style/TextView"
+            android:text="计算结果" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/lb12"
+            android:layout_centerHorizontal="true">
+
+
+            <TextView
+                style="@style/TextView.big"
+                android:textStyle="bold"
+                android:text="幸运号码："/>
+
+            <TextView
+                android:id="@+id/calculate_finalres"
+                style="@style/TextView.highlight"
+                android:text="******"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/OptionBar.radio"
+        android:layout_marginLeft="@dimen/page_boarder_margin"
+        android:layout_marginRight="@dimen/page_boarder_margin"
+        android:layout_marginTop="@dimen/page_boarder_margin">
+        <TextView
+            style="@style/TextView.gray"
+            android:text="@string/cal_detail_tip"
+            android:gravity="left"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

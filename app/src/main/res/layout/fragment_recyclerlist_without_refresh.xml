@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shawnway.nav.app.yylg.fragment.ListFragment">
+    <ProgressBar
+        android:id="@id/layout_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyle"/>
+
+        <com.shawnway.nav.app.yylg.view.MyRecyclerView
+            android:id="@id/recyclerview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@id/layout_nodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="已加载完毕，暂无数据"
+            />
+        <TextView
+            android:id="@id/bt_click_torefresh"
+            style="@style/TextView.bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/click_to_refresh"/>
+    </LinearLayout>
+
+</FrameLayout>

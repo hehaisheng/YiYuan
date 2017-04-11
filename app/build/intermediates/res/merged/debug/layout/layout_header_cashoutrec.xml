@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_color" />
+    <!--table header-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/page_boarder_margin"
+            android:paddingTop="@dimen/page_boarder_margin">
+
+            <TextView
+                android:id="@id/time"
+                style="@style/TextView.small"
+                android:textColor="@color/good_detail_swipe_text_color"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/cashoutrec_col_one_weight"
+                android:gravity="left"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:text="提现时间" />
+
+            <TextView
+                android:id="@id/status"
+                style="@style/TextView.small"
+                android:textColor="@color/good_detail_swipe_text_color"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/cashoutrec_col_four_weight"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:text="状态" />
+
+            <TextView
+                android:id="@id/code"
+                style="@style/TextView.small"
+                android:textColor="@color/good_detail_swipe_text_color"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="@integer/cashoutrec_col_two_weight"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:text="卡号" />
+
+            <TextView
+                android:id="@id/custom"
+                style="@style/TextView.small"
+                android:textColor="@color/good_detail_swipe_text_color"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="@integer/cashoutrec_col_three_weight"
+                android:gravity="right"
+                android:maxLines="2"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:text="金额" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_color" />
+    </LinearLayout>
+
+</LinearLayout>

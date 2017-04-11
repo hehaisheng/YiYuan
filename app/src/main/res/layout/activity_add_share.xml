@@ -1,0 +1,131 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@id/toolbar"
+            layout="@layout/include_top_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/page_boarder_margin"
+            android:paddingLeft="@dimen/page_boarder_margin"
+            android:layout_below="@id/toolbar">
+
+            <LinearLayout
+                android:id="@id/wraper_name"
+                style="@style/ShipAddressEidtItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/page_boarder_margin"
+                android:layout_marginTop="@dimen/page_boarder_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AddShareEidtLable"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addshare_label_goodname" />
+
+                <TextView
+                    android:id="@id/addshare_good_name"
+                    style="@style/AddShareEidtLable"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@id/wraper_title"
+                style="@style/ShipAddressEidtItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wraper_name"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AddShareEidtLable"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addshare_label_sharetitle" />
+
+                <EditText
+                    android:id="@id/addshare_inputer_title"
+                    style="@style/AddShareEditCont"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/addshare_hint_sharetitle"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@id/wraper_comment"
+                style="@style/ShipAddressEidtItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wraper_title"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AddShareEidtLable"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addshare_label_comment" />
+
+                <EditText
+                    android:id="@id/addshare_inputer_comment"
+                    style="@style/AddShareEditCont"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:hint="@string/addshare_hint_comment"
+                    android:maxLength="140" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wraper_comment"
+                android:layout_marginTop="@dimen/common_column_margin">
+
+
+                <Button
+                    android:id="@id/goselect"
+                    style="@style/Button.main.radio"
+                    android:layout_alignParentRight="true"
+                    android:onClick="onClick"
+                    android:text="@string/go_select" />
+
+                <com.shawnway.nav.app.yylg.view.NoScrollGridView
+                    android:id="@id/gridView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/goselect"
+                    android:layout_marginTop="10dp"
+                    android:columnWidth="@dimen/image_selector_imageview_size"
+                    android:horizontalSpacing="10dp"
+                    android:numColumns="auto_fit"
+                    android:padding="20dp"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="10dp" />
+
+                <Button
+                    android:id="@id/commit"
+                    style="@style/Button.main.radio"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/gridView"
+                    android:layout_marginBottom="@dimen/common_column_medium_margin"
+                    android:layout_marginTop="@dimen/common_column_medium_margin"
+                    android:onClick="onClick"
+                    android:text="@string/addshare_bt_commit" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

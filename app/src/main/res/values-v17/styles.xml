@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="OptionBar.radio" parent="@style/OptionBar">
+        <item name="android:textColor">@color/app_textColor</item>
+        <item name="android:button">@drawable/bg_radio</item>
+    </style>
+</resources>

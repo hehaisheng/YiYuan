@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lin="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/goods_bg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10.0dip" >
+
+        <ImageView
+            android:id="@+id/result_goods_pic"
+            android:layout_width="fill_parent"
+            android:layout_height="105.0dip"
+            android:minWidth="140.0dip" />
+
+        <TextView
+            android:id="@+id/result_goods_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="第xxx期"
+            android:textColor="#ff666666"
+            android:textSize="13.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/result_revealed_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="144.0dip"
+        android:background="@drawable/common_background"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获  得  者："
+                android:textColor="#ff999999"
+                android:textSize="12.0sp" />
+
+            <TextView
+                android:id="@+id/result_revealed_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="网易1元夺宝"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="参与人次："
+                android:textColor="#ff999999"
+                android:textSize="12.0sp" />
+
+            <TextView
+                android:id="@+id/result_revealed_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="10"
+                android:textColor="#ff999999"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="幸运号码："
+                android:textColor="#ff999999"
+                android:textSize="12.0sp" />
+
+            <TextView
+                android:id="@+id/result_revealed_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="10000360"
+                android:textColor="#ffdb3652"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="揭晓时间："
+                android:textColor="#ff999999"
+                android:textSize="12.0sp" />
+
+            <TextView
+                android:id="@+id/result_revealed_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="2014-09-09 12:32:21.111"
+                android:textColor="#ff999999"
+                android:textSize="12.0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="揭晓"
+                android:textColor="#ff999999"
+                android:textSize="12.0sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/result_revealing_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="142.0dip"
+        android:orientation="vertical"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:paddingTop="10.0dip" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/ic_revealing2_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_revealing2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5.0dip"
+                android:layout_toRightOf="@+id/ic_revealing2_id"
+                android:text="即将开奖"
+                android:textColor="@color/impt" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/result_revealing_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9.0dip"
+            android:text="请稍后，正在计算…"
+            android:textColor="#ffdb3652"
+            android:textSize="15.0sp"
+            android:visibility="gone" />
+
+        <!--<com.shawnway.nav.app.yylg.view.CustomDigitalClock
+            android:id="@+id/result_revealing_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:text="05:08:19"
+            android:textColor="#ffdb3652"
+            android:textSize="30.0sp"
+            android:visibility="gone" />-->
+
+        <cn.iwgang.countdownview.CountdownView
+            android:id="@+id/result_revealing_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@id/detail_cdTitle"
+            lin:timeBgColor="#5b79fe"
+            lin:timeBgRadius="3dp"
+            lin:isHideTimeBackground="false"
+            lin:isShowDay="false"
+            lin:isShowHour="false"
+            lin:isShowMinute="true"
+            lin:isShowSecond="true"
+            lin:isShowMillisecond="true"
+            lin:timeTextColor="#ffffff"
+            lin:timeTextSize="22sp"
+            lin:isTimeTextBold="true"
+            lin:suffixGravity="center"
+            lin:suffixTextColor="#5b79fe"
+            lin:suffixTextSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/caipiao_error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="142.0dip"
+        android:orientation="vertical"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:paddingTop="10.0dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="非常抱歉~"
+            android:textColor="#ff999999"
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="福彩中心通讯故障，等待恢复中..."
+            android:textColor="#ff999999"
+            android:textSize="13.0sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1.0px"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="#ffe4e4e4" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_alignParentBottom="true"
+        android:background="#ffdcdcdc" />
+
+    <include layout="@layout/include_tab_icon_layout" />
+
+</FrameLayout>

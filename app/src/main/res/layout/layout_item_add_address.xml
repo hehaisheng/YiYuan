@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bt_layout_winRecord"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_background_with_white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ofm_add_icon"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:gravity="center"
+            android:text="@string/address_add_address"
+            android:textColor="#ff666666"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="7.0dip"
+        android:layout_height="11.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:src="@drawable/ic_more" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10.0dip"
+        android:background="#ffdcdcdc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dip"
+        android:background="#ffe4e4e4"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

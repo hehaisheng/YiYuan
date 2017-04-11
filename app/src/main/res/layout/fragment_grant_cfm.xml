@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/wraper_title"
+        style="@style/ShipAddressEidtItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/page_boarder_margin"
+        android:paddingBottom="@dimen/page_boarder_margin"
+        android:layout_marginLeft="@dimen/page_boarder_margin"
+        android:layout_marginRight="@dimen/page_boarder_margin"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@id/inputer_amount"
+            style="@style/EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/grant_hint_amount"
+            android:inputType="number"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        android:background="@color/app_background" />
+
+    <LinearLayout
+        android:id="@id/wraper_remark"
+        style="@style/ShipAddressEidtItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/page_boarder_margin"
+        android:layout_marginRight="@dimen/page_boarder_margin"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/AddShareEidtLable"
+            android:layout_height="wrap_content"
+            android:text="@string/grant_label_remark" />
+
+        <EditText
+            android:id="@id/inputer_remark"
+            style="@style/AddShareEditCont"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:hint="@string/grant_hint_remark"
+            android:maxLength="140" />
+    </LinearLayout>
+
+    <Button
+        android:id="@id/submit"
+        style="@style/Button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:text="@string/ok" />
+</LinearLayout>

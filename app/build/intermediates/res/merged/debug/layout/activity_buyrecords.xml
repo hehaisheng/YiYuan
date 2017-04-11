@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/include_top_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <TextView
+            style="@style/normalTextStyle"
+            android:id="@+id/tab_all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="全部" />
+
+        <TextView
+            style="@style/normalTextStyle"
+            android:id="@+id/tab_open"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="进行中" />
+
+        <TextView
+            style="@style/normalTextStyle"
+            android:id="@+id/tab_annount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="已揭晓" />
+    </LinearLayout>
+
+    <TextView
+        android:background="@color/text_gray"
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        />
+
+    <FrameLayout
+        android:id="@+id/framelayout_buyrecords"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</LinearLayout>

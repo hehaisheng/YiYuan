@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/common_background_with_white"
+    android:orientation="vertical"
+    android:padding="@dimen/common_column_very_small_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/framlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/share_customer_header"
+                android:layout_width="@dimen/customer_header_size"
+                android:layout_height="@dimen/customer_header_size"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/portrait"
+                app:civ_border_color="@color/transparent"
+                app:civ_border_width="2dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/framlayout"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@id/share_list_customer"
+                    style="@style/TextView.small.yellow"
+                    android:layout_marginRight="10dip"
+                    android:gravity="left"
+                    android:text="someone"
+                    android:textColor="@color/deepskyblue" />
+
+                <TextView
+                    android:id="@id/share_list_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="2014-6-30 11:08"
+                    android:textColor="#7f000000"
+                    android:textSize="12.0sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@id/share_list_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="8.0dip"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="哈哈缺什么就来什么？随声Wifi随声Wifi随声Wifi随声Wifi"
+                android:textColor="#cc000000"
+                android:textSize="14.0sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:background="#ffdcdcdc" />
+
+    <LinearLayout
+        android:id="@id/share_list_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appcolor_lightgray"
+        android:orientation="vertical"
+        android:paddingBottom="15.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@id/share_list_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="2.0dip"
+                android:text="等待审核"
+                android:textColor="@color/white"
+                android:textSize="9.0sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip">
+
+            <TextView
+                android:id="@id/share_list_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lineSpacingExtra="3.0dip"
+                android:maxLines="2"
+                android:text="我就是晒单的内容了，嘻嘻喜欢啥，嘻嘻喜欢啥，嘻嘻喜欢啥，嘻嘻喜欢啥，hahaha我就是晒单的内容了，嘻嘻喜欢啥，hahaha我就是晒单的内容了，嘻嘻喜欢啥，hahaha我就是晒单的内容了，嘻嘻喜欢啥，hahaha"
+                android:textColor="#7f000000"
+                android:textSize="12.0sp" />
+
+            <LinearLayout
+                android:id="@id/share_list_preview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/share_list_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <com.shawnway.nav.app.yylg.view.CirclerImageView
+                    android:id="@+id/img0"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop" />
+
+                <com.shawnway.nav.app.yylg.view.CirclerImageView
+                    android:id="@+id/img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="@dimen/image_gridview_margin"
+                    android:scaleType="centerCrop" />
+
+                <com.shawnway.nav.app.yylg.view.CirclerImageView
+                    android:id="@+id/img2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="@dimen/image_gridview_margin"
+                    android:scaleType="centerCrop" />
+
+                <com.shawnway.nav.app.yylg.view.CirclerImageView
+                    android:id="@+id/img3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="@dimen/image_gridview_margin"
+                    android:scaleType="centerCrop" />
+
+                <com.shawnway.nav.app.yylg.view.CirclerImageView
+                    android:id="@+id/img4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="@dimen/image_gridview_margin"
+                    android:scaleType="centerCrop" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_list_wrapper">
+
+        <TextView
+            android:id="@id/bt_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="@dimen/common_column_very_small_margin"
+            android:drawableLeft="@drawable/comments"
+            android:paddingBottom="@dimen/common_column_very_small_margin"
+            android:text="0"
+            android:textColor="@color/divider_color" />
+
+        <TextView
+            android:id="@id/bt_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_column_very_small_margin"
+            android:layout_toLeftOf="@id/bt_comments"
+            android:drawableLeft="@drawable/like"
+            android:paddingBottom="@dimen/common_column_very_small_margin"
+            android:text="0"
+            android:textColor="@color/divider_color" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10.0px"
+        android:layout_alignParentBottom="true"
+        android:background="#ffdcdcdc" />
+</LinearLayout>

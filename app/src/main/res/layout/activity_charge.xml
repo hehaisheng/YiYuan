@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@id/toolbar"
+            layout="@layout/include_top_adjust_gray" />
+
+       <!-- <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_recharge"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:text="@string/buyWangpan"
+            android:textColor="#ff66371d" />-->
+
+
+        <RelativeLayout
+            android:id="@id/orderListTitle"
+            style="@style/OptionBar"
+            android:onClick="onClick">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/charge_money_info_label" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center|right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥0.0" />
+
+              <!--  <ImageView
+                    android:id="@id/orderArr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:src="@drawable/ic_arr_down_gray" />-->
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@id/moneyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="15.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingTop="15.0dip"
+            android:text="@string/chooseMoney"
+            android:textSize="16.0sp" />
+
+        <com.shawnway.nav.app.yylg.view.MoneyPicker
+            android:id="@id/moneyPicker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@id/useBankTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="15.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingTop="15.0dip"
+            android:text="@string/choosePayment"
+            android:textSize="16.0sp" />
+
+        <com.shawnway.nav.app.yylg.view.Bank
+            android:id="@id/banks"
+            my:bankStyle="simpleMode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <!--<include-->
+            <!--layout="@layout/layout_bank"/>-->
+
+        <Button
+            android:id="@id/submit"
+            style="@style/Button.main"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="16.0dip"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/submitRecharge" />
+    </LinearLayout>
+</ScrollView>

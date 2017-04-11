@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/include_top_gray" />
+
+
+    <ScrollView
+        android:id="@+id/regist_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/regist_scroller_relative"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/page_boarder_margin"
+                android:paddingRight="@dimen/page_boarder_margin">
+
+                <RelativeLayout
+                    android:id="@+id/code_inputer_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                      >
+                    <TextView
+                        android:id="@id/label"
+                        android:text="@string/retri_code_label"
+                        style="@style/TextView.big"
+                        />
+                    <EditText
+                        android:id="@+id/code_inputer"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/ic_login_verify"
+                        android:hint="@string/regist_input_hint_verifycode"
+                        android:layout_below="@id/label"
+                        android:inputType="text"
+                        android:singleLine="true" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_below="@id/label"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/common_line" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@id/pwd_inputer_layout"
+                    android:layout_below="@id/code_inputer_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/page_boarder_margin"
+                      >
+                    <TextView
+                        android:id="@id/label"
+                        style="@style/TextView.big"
+                        android:text="@string/retri_pwd_label"
+                        />
+
+                    <EditText
+                        android:id="@id/pwd_inputer"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/ic_login_verify"
+                        android:hint="@string/regtrieve_input_hint_pwd"
+                        android:layout_below="@id/label"
+                        android:inputType="textPassword"
+                        android:singleLine="true" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@id/label"
+                        android:background="@color/common_line" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/pwdcfm_inputer_layout"
+                    android:layout_below="@id/pwd_inputer_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/page_boarder_margin"
+                      >
+
+                    <TextView
+                        android:id="@id/label"
+                        style="@style/TextView.big"
+                        android:text="@string/retri_pwdcfm_label"
+                        />
+
+                    <EditText
+                        android:id="@+id/pwdcfm_inputer"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/ic_login_verify"
+                        android:hint="@string/retrieve_input_hint_pwdcfm"
+                        android:layout_below="@id/label"
+                        android:inputType="textPassword"
+                        android:singleLine="true" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@id/label"
+                        android:background="@color/common_line" />
+                </RelativeLayout>
+
+
+                <Button
+                    android:id="@id/btn_submit"
+                    style="@style/Button.main.Border"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@id/pwdcfm_inputer_layout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20.0dp"
+                    android:layout_marginTop="15.0dp"
+                    android:onClick="onClick"
+                    android:text="@string/submit" />
+
+                <Button
+                    android:id="@id/submit"
+                    style="@style/Button.main"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@id/register_cfmregist_btn"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20.0dp"
+                    android:layout_marginTop="15.0dp"
+                    android:onClick="onClick"
+                    android:enabled="false"
+                    android:text="@string/regist_countdown_btn"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

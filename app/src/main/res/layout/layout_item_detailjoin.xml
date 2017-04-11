@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+-->
+
+<!--<LinearLayout
+    android:id="@id/layout_date"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="1.0px"
+        android:layout_height="10.0dip"
+        android:layout_marginLeft="27.0dip"
+        android:background="#ffdcdcdc" />
+
+    <TextView
+        android:id="@id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:background="@drawable/bg_detail_joinlist_date"
+        android:text="2014-8-8"
+        android:textColor="#ff999999"
+        android:visibility="gone"/>
+</LinearLayout>--><!--
+    <ImageView
+        android:layout_width="1.0px"
+        android:layout_height="10.0dip"
+        android:layout_marginLeft="27.0dip"
+        android:background="#ffdcdcdc" />-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/common_column_margin"
+    android:paddingTop="@dimen/joinlist_margintop">
+
+    <ImageView
+        android:layout_width="1.0px"
+        android:layout_height="30.0dip"
+        android:layout_marginLeft="27.0dip"
+        android:background="#ffdcdcdc" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/portrait"
+        app:civ_border_color="@color/transparent"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@id/tv_name"
+        style="@style/TextView.link"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/page_boarder_margin"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="小抄抄"
+        android:textColor="@color/deepskyblue"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@id/tv_joint_loc"
+        style="@style/TextView.gray"
+        android:layout_toRightOf="@id/tv_name"
+        android:singleLine="true"
+        android:textSize="14sp"
+        tools:text="(广东省广州市 IP：218.1.1.1)" />
+
+    <TextView
+        android:id="@id/tv_joininfo"
+        style="@style/TextView.gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginLeft="@dimen/page_boarder_margin"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/detail_join_count" />
+
+    <TextView
+        android:id="@id/tv_jointime_begin"
+        style="@style/TextView.gray"
+        android:layout_below="@id/tv_joininfo"
+        android:layout_marginLeft="@dimen/page_boarder_margin"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="2014-6-6 11:22:22" />
+</RelativeLayout>
+
+    <!--
+    </LinearLayout>-->

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_type1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/include_top_gray" />
+
+    <FrameLayout
+        android:id="@id/fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/layout_bottomBar"/>
+
+
+    <!--
+       <TextView
+        android:id="@+id/subtab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:paddingTop="4dip"
+        android:background="@drawable/selector_header"
+        android:text="@string/discover_tabtitle"
+        android:textColor="@drawable/tab_txt_sel_girl"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+       <TextView
+        android:id="@+id/subtab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+         android:background="@drawable/selector_header"
+        android:paddingTop="4dip"
+        android:text="@string/discover_tabtitle"
+        android:textColor="@drawable/tab_txt_sel_girl"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+       <TextView
+        android:id="@+id/subtab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:paddingTop="4dip"
+        android:text="@string/discover_tabtitle"
+         android:background="@drawable/selector_header"
+        android:textColor="@drawable/tab_txt_sel_girl"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+    -->
+    <!--
+        <include
+            android:id="@+id/subtab1"
+            layout="@layout/tab_sub_item" />
+
+        <include
+            android:id="@+id/subtab2"
+            layout="@layout/tab_sub_item" />
+
+        <include
+            android:id="@+id/subtab3"
+            layout="@layout/tab_sub_item" />
+    -->
+
+
+    <!--  -->
+
+</LinearLayout>
